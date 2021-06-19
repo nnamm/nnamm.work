@@ -1,2 +1,2 @@
 # nnamm.work
-My website, powered by Pelican.
+[My website](https://nnamm.work), powered by Pelican.
