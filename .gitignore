@@ -4,10 +4,9 @@
 .vim
 __pycache__
 output
-output_dev
 to_srv_root_dir/.htaccess
 publishconf.py
-preparation.sh
+publish.sh
 theme/.idea
 theme/_sample
 theme/nnamm.work/static/css/pygments.css

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>nnamm.work.work - Creative</title><link href="/" rel="alternate"/><link href="/feeds/creative.rss.xml" rel="self"/><id>/</id><updated>2021-06-19T13:30:00+09:00</updated><subtitle>portfolio note</subtitle><entry><title>コードが動かない！むきー！な気持ちの解消法</title><link href="/posts/010-how-to-refresh-dealing-bugs" rel="alternate"/><published>2021-05-30T01:00:00+09:00</published><updated>2021-05-30T01:00:00+09:00</updated><author><name>花村貴史 / Takashi Hanamura</name></author><id>tag:None,2021-05-30:/posts/010-how-to-refresh-dealing-bugs</id><summary type="html">&lt;p&gt;&lt;strong&gt;コードを書いて 1 発で動くことは稀です。少なくとも僕は。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;コードを組むのは人間ですからケアレスミスはあるもの。それでも動かす・作りきることを楽しめるのが、ソフトウェアエンジニアかと思います。動いたときは嬉しいし、知見が深まるので僕は楽しいですね。&lt;/p&gt;
+&lt;p&gt;でも、手詰まって！どーしようもなくて！動かない！むきー！となることはふつうにあります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;そんなときの僕の心の解消法、つまり気分転換法をまとめます。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="_1"&gt;身体を動かす&lt;/h2&gt;
+&lt;p&gt;その場から離れて、歩いたり身体を動かします。&lt;/p&gt;
+&lt;p&gt;ボディメンテでお世話になっていた整骨院の先生が、よく「筋肉の酸欠」の話を聞かせてくれました。ずっと同じ姿勢でいると、血の巡りが滞るため身体にはよくないと。&lt;/p&gt;
+&lt;p&gt;それを「酸欠」と呼んでいました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;酸欠を解消するために、ストレッチをして筋肉に酸素を送りこみます。&lt;/strong&gt;僕がよくやっていることは&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;・肩を回す&lt;br&gt;
+・首を前後に曲げる&lt;br&gt;
+・背中をひねる&lt;br&gt;
+・屈伸&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;くらいで、1 時間に 1 回やるのが理想です。&lt;/p&gt;
+&lt;h2 id="_2"&gt;違うことをする&lt;/h2&gt;
+&lt;p&gt;違う作業をするのでもよいのですが、僕は隙間時間にあれもこれもちょっとずつ進めることが苦手なタイプなので、違う作業はしません。&lt;/p&gt;
+&lt;p&gt;前述の「身体を動かす」と連動します。たとえはこんなこと …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;コードを書いて 1 発で動くことは稀です。少なくとも僕は。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;コードを組むのは人間ですからケアレスミスはあるもの。それでも動かす・作りきることを楽しめるのが、ソフトウェアエンジニアかと思います。動いたときは嬉しいし、知見が深まるので僕は楽しいですね。&lt;/p&gt;
+&lt;p&gt;でも、手詰まって！どーしようもなくて！動かない！むきー！となることはふつうにあります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;そんなときの僕の心の解消法、つまり気分転換法をまとめます。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="_1"&gt;身体を動かす&lt;/h2&gt;
+&lt;p&gt;その場から離れて、歩いたり身体を動かします。&lt;/p&gt;
+&lt;p&gt;ボディメンテでお世話になっていた整骨院の先生が、よく「筋肉の酸欠」の話を聞かせてくれました。ずっと同じ姿勢でいると、血の巡りが滞るため身体にはよくないと。&lt;/p&gt;
+&lt;p&gt;それを「酸欠」と呼んでいました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;酸欠を解消するために、ストレッチをして筋肉に酸素を送りこみます。&lt;/strong&gt;僕がよくやっていることは&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;・肩を回す&lt;br/&gt;
+・首を前後に曲げる&lt;br/&gt;
+・背中をひねる&lt;br/&gt;
+・屈伸&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;くらいで、1 時間に 1 回やるのが理想です。&lt;/p&gt;
+&lt;h2 id="_2"&gt;違うことをする&lt;/h2&gt;
+&lt;p&gt;違う作業をするのでもよいのですが、僕は隙間時間にあれもこれもちょっとずつ進めることが苦手なタイプなので、違う作業はしません。&lt;/p&gt;
+&lt;p&gt;前述の「身体を動かす」と連動します。たとえはこんなこと。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;・窓の大きい部屋で空をボォっと眺める&lt;br/&gt;
+・広い場所に出てなんとなくボォっと眺める&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;僕の場合、結局はコードのことを考えちゃうのですが（笑）、おかげでひらめくことも多いです。&lt;/p&gt;
+&lt;h2 id="_3"&gt;気持ちを感じきる&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;個人的にはこの「感じきる」ことはとても大切だと思ってます。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;どういうことかというと、僕の場合、「動かない → できない → くやしい（怒）」となることが多い。「なんでできないんだ！俺はまだまだだ！」というように、くやしい気持ちに包まれてしまう。&lt;/p&gt;
+&lt;p&gt;でも、このときむりやり頭で理解して鎮めようとするのは心の面からいうと不十分です。くやしいなら&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;・くそー、動かないのムカツクー！&lt;br/&gt;
+・くやしいなぁ、くやしいなぁ、ちっきしょー&lt;br/&gt;
+・ぜってーやってやる！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;といった&lt;strong&gt;「感情的なことば」「感情的ななにか」を脳内でもいいし、だれもいないところで声に出してもいいから発散しちゃう方が断然いい。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;発散したあとに「まぁ、しかたないか（笑）」と笑い飛ばせたらいいですね。&lt;/p&gt;
+&lt;p&gt;要は（いま抱えている感情に）降参して諦めるってことです。  でも、これは現状を肯定することになります。&lt;/p&gt;
+&lt;p&gt;「諦める」は「明らかに見る」が語源のなので、むしろ今をしっかりと把握することだし、「それでも OK」と肯定していることなのでネガティブはなくポジティブなんですね。&lt;/p&gt;
+&lt;h2 id="_4"&gt;しっかり寝る&lt;/h2&gt;
+&lt;p&gt;エンジニアは日々脳みそフル回転してます。しっかり休ませてあげることはむしろエンジニアの義務。&lt;/p&gt;
+&lt;p&gt;そもそも人生を存分に楽しむためには「自分メンテ」が大切です。身体と心を適度に休ませて、使ってあげるのがベスト。&lt;/p&gt;
+&lt;h2 id="_5"&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;個人的に気分転換する方法でした。セルフケアですね。&lt;/p&gt;
+&lt;p&gt;もちろん、現場の仲間とふつう話したり、話を聴いてもらったり、そういうことから気分転換するのも良いですよ。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/010_210530-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/010_210530-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/010_210530-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/010_210530-1.jpg 3x"/&gt;&lt;/p&gt;</content><category term="Creative"/><category term="Coding"/><category term="Mind"/></entry><entry><title>Gridsome｜v-ifを使いテンプレート内でデザインを分ける</title><link href="/posts/005-separate-the-designs" rel="alternate"/><published>2020-05-04T14:00:00+09:00</published><updated>2020-05-04T14:00:00+09:00</updated><author><name>花村貴史 / Takashi Hanamura</name></author><id>tag:None,2020-05-04:/posts/005-separate-the-designs</id><summary type="html">&lt;p&gt;Gridsome には「multiple templates for a collection」という仕組みがあって、1 つのコレクションを複数のテンプレートに対応させることができます。&lt;/p&gt;
+&lt;p&gt;参考：&lt;a href="https://gridsome.org/docs/templates/" target="_blank"&gt;Templates - Gridsome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;基本的にコレクション（ md ファイル等）とテンプレート（ vue ファイル）は 1 対 1 の関係ですが、任意のページだけ専用のテンプレートを適用できるもの、と僕は理解してます。&lt;/p&gt;
+&lt;p&gt;しかし、Build すると同じ記事データが複数生成されてしまい、記事の重複が起こりました。&lt;/p&gt;
+&lt;p&gt;dist をそのままサーバーにアップロードしたら SEO 的にどうなの？と考えた末、ひとまず、テンプレート内で「v-if / v-if-else / v-else」を使って乗り切ることにしました。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/005_200504-1.jpg"&gt;&lt;/p&gt;
+&lt;h2 id="_1"&gt;記事が重複する？&lt;/h2&gt;
+&lt;p&gt;サイト公開当初は 1 種類のコレクション（ Markdown ）から GraphQL の Filter …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Gridsome には「multiple templates for a collection」という仕組みがあって、1 つのコレクションを複数のテンプレートに対応させることができます。&lt;/p&gt;
+&lt;p&gt;参考：&lt;a href="https://gridsome.org/docs/templates/" target="_blank"&gt;Templates - Gridsome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;基本的にコレクション（ md ファイル等）とテンプレート（ vue ファイル）は 1 対 1 の関係ですが、任意のページだけ専用のテンプレートを適用できるもの、と僕は理解してます。&lt;/p&gt;
+&lt;p&gt;しかし、Build すると同じ記事データが複数生成されてしまい、記事の重複が起こりました。&lt;/p&gt;
+&lt;p&gt;dist をそのままサーバーにアップロードしたら SEO 的にどうなの？と考えた末、ひとまず、テンプレート内で「v-if / v-if-else / v-else」を使って乗り切ることにしました。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/005_200504-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/005_200504-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/005_200504-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/005_200504-1.jpg 3x"/&gt;&lt;/p&gt;
+&lt;h2 id="_1"&gt;記事が重複する？&lt;/h2&gt;
+&lt;p&gt;サイト公開当初は 1 種類のコレクション（ Markdown ）から GraphQL の Filter を使って、3 種類のコンテンツを抽出していました。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;// コンテンツ抽出イメージ
+
+コレクション（*.md）
+|
+|___ Blogコンテンツ（Post.vue）
+|___ Graphicコンテンツ（Graphic.vue）
+|___ Photoコンテンツ（Photo.vue）
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;// gridsome.config.js（サイト公開当初の設定、一部抜粋）&lt;/span&gt;
+
+&lt;span class="nx"&gt;plugins&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+  &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;use&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'@gridsome/source-filesystem'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;options&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'static/posts/**/**/*.md'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="nx"&gt;typeName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'Post'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="nx"&gt;remark&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nx"&gt;plugins&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'@gridsome/remark-prismjs'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+      &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="err"&gt;（&lt;/span&gt;&lt;span class="nx"&gt;中略&lt;/span&gt;&lt;span class="err"&gt;）&lt;/span&gt;
+
+&lt;span class="nx"&gt;templates&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nx"&gt;Post&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="c1"&gt;// ブログ用&lt;/span&gt;
+      &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/posts/:slug'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="nx"&gt;component&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'./src/templates/Post.vue'&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="c1"&gt;// グラフィック作品用&lt;/span&gt;
+      &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/graphics/:slug'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="nx"&gt;component&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'./src/templates/Graphic.vue'&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="c1"&gt;// 写真作品用&lt;/span&gt;
+      &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/photos/:slug'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="nx"&gt;component&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'./src/templates/Photo.vue'&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+  &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;↑ をすることで上手いこと生成してくれるかと思いきや・・・以下のようにファイルが生成されてしまいました。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;// この重複っぷりったら（笑）
+
+dist
+|
+|__ posts
+|   |__ Blogコンテンツ1
+|   |   |__ index.html
+|   |__ Blogコンテンツ2
+|   |   |__ index.html
+|   |__ Graphicコンテンツ1（本来不要）
+|   |   |__ index.html
+|   |__ Photoコンテンツ1（本来不要）
+|   |   |__ index.html
+|   |__ Photoコンテンツ2（本来不要）
+|       |__ index.html
+|
+|__ graphic
+|   |__ Blogコンテンツ1（本来不要）
+|   |   |__ index.html
+|   |__ Blogコンテンツ2（本来不要）
+|   |   |__ index.html
+|   |__ Graphicコンテンツ1
+|   |   |__ index.html
+|   |__ Photoコンテンツ1（本来不要）
+|   |   |__ index.html
+|   |__ Photoコンテンツ2（本来不要）
+|       |__ index.html
+|
+|__ photo
+    |__ Blogコンテンツ1（本来不要）
+    |   |__ index.html
+    |__ Blogコンテンツ2（本来不要）
+    |   |__ index.html
+    |__ Graphicコンテンツ1（本来不要）
+    |   |__ index.html
+    |__ Photoコンテンツ1
+    |   |__ index.html
+    |__ Photoコンテンツ2
+        |__ index.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;URL としてはすべてのルートが生成されているので、このままサーバーにアップロードしたら同じ記事だらけで「どれが本物か！？」と Google さんは思うでしょう。実際、Search Console には「重複してるよ」って言われました。&lt;/p&gt;
+&lt;p&gt;というわけで対策を考えます。&lt;/p&gt;
+&lt;h2 id="1-robotstxt"&gt;対策(1) robots.txt → 失敗&lt;/h2&gt;
+&lt;p&gt;まず思いついたのは robots.txt です。&lt;/p&gt;
+&lt;p&gt;Gridsome の gridsome-plugin-robots プラグインを使って、特定の URL のみ disallow とすることでした。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;// gridsome.config.js（サイト公開当初の設定、一部抜粋）&lt;/span&gt;
+
+&lt;span class="nx"&gt;plugins&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+
+&lt;span class="err"&gt;（&lt;/span&gt;&lt;span class="nx"&gt;中略&lt;/span&gt;&lt;span class="err"&gt;）&lt;/span&gt;
+
+  &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;use&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'gridsome-plugin-robots'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;options&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="nx"&gt;host&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'https://portfolio.nnamm.com'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="nx"&gt;sitemap&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'https://portfolio.nnamm.com/sitemap.xml'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="nx"&gt;policy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+        &lt;span class="p"&gt;{&lt;/span&gt;
+          &lt;span class="nx"&gt;userAgent&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'*'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+          &lt;span class="nx"&gt;allow&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+          &lt;span class="nx"&gt;disallow&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+            &lt;span class="s1"&gt;'/posts/p0*'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s1"&gt;'/posts/g0*'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s1"&gt;'/photos/b0*'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s1"&gt;'/photos/g0*'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s1"&gt;'/graphics/b0*'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s1"&gt;'/graphics/p0*'&lt;/span&gt;
+          &lt;span class="p"&gt;]&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+      &lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;しかし、これは disallow が約束されたものではありません。想定していない URL がインデックスされる可能性がありますし、実際されちゃいました。&lt;/p&gt;
+&lt;h2 id="2-v-if"&gt;対策(2) v-if を使って分ける → 成功&lt;/h2&gt;
+&lt;p&gt;もともと Blog/Graphic/Photo それぞれにテンプレート（ vue ファイル）を作り、デザインを分けていましたが、&lt;strong&gt;1 つの vue ファイルに統合して、処理を切り分ければ良いんじゃなーい？&lt;/strong&gt;と気づきます。&lt;/p&gt;
+&lt;p&gt;「これだ！」というわけで、ベストプラクティスかはわかりませんが以下のようにしました。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;URL のスラッグの先頭に投稿タイプの文字列を追加（ Blog なら b、Graphic なら g、Photo なら p → 例. b0001-200322-start-portfolio-site ）&lt;/li&gt;
+&lt;li&gt;computed で GraphQL からスラッグの頭文字を取得&lt;/li&gt;
+&lt;li&gt;v-if="postType === 'b'"のようにして処理を分ける&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;// Post.vue（一部抜粋）&lt;/span&gt;
+
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;template&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;Layout&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+
+    &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;template&lt;/span&gt; &lt;span class="nx"&gt;v&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;slot&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="nx"&gt;main&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;contents&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;div&lt;/span&gt; &lt;span class="nx"&gt;v&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"postType === 'b'"&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="err"&gt;〜&lt;/span&gt; &lt;span class="nx"&gt;Blog用のデザイン&lt;/span&gt; &lt;span class="err"&gt;〜&lt;/span&gt;
+      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="err"&gt;/div&amp;gt;&lt;/span&gt;
+
+      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;div&lt;/span&gt; &lt;span class="nx"&gt;v&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"postType === 'g'"&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="err"&gt;〜&lt;/span&gt; &lt;span class="nx"&gt;Graphic用のデザイン&lt;/span&gt; &lt;span class="err"&gt;〜&lt;/span&gt;
+      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="err"&gt;/div&amp;gt;&lt;/span&gt;
+
+      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;div&lt;/span&gt; &lt;span class="nx"&gt;v&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="err"&gt;〜&lt;/span&gt; &lt;span class="nx"&gt;Photo用のデザイン&lt;/span&gt; &lt;span class="err"&gt;〜&lt;/span&gt;
+      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="err"&gt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="err"&gt;/template&amp;gt;&lt;/span&gt;
+
+  &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="err"&gt;/Layout&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="err"&gt;/template&amp;gt;&lt;/span&gt;
+
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;script&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nx"&gt;computed&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;postType&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;$page&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;article&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;slug&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;substr&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="err"&gt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class="err"&gt;※&lt;/span&gt;&lt;span class="nx"&gt;$pageでGraphQLした結果にアクセスできるのでslugから文字を取得&lt;/span&gt;
+
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;page&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;query&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="nx"&gt;query&lt;/span&gt; &lt;span class="nx"&gt;Post&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$path&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;String&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nx"&gt;article&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;post&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;$path&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;id&lt;/span&gt;
+    &lt;span class="nx"&gt;title&lt;/span&gt;
+    &lt;span class="nx"&gt;createdAt&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;format&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"YYYY.MM.DD"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;updatedAt&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;format&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"YYYY.MM.DD"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;description&lt;/span&gt;
+    &lt;span class="nx"&gt;content&lt;/span&gt;
+    &lt;span class="nx"&gt;image&lt;/span&gt;
+    &lt;span class="nx"&gt;slug&lt;/span&gt;
+    &lt;span class="nx"&gt;category&lt;/span&gt;
+    &lt;span class="nx"&gt;tags&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="err"&gt;/page-query&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;結果、Build すると想定したものだけが生成されていました。スッキリ！&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;dist
+|
+|__ posts
+    |__ Blogコンテンツ1
+    |   |__ index.html
+    |
+    |__ Blogコンテンツ2
+    |   |__ index.html
+    |
+    |__ Graphicコンテンツ1
+    |   |__ index.html
+    |
+    |__ Photoコンテンツ1
+    |   |__ index.html
+    |
+    |__ Photoコンテンツ2
+        |__ index.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id="_2"&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;Vue.js の条件付きンダリングを使って対応した、というお話でした。&lt;/p&gt;
+&lt;p&gt;Gridsome はこのような仕様でしたが（僕の使い方が正しいか判断できませんが）、他の SSG はどうなんでしょうね。有名な Nuxt.js や Gatsby.js なんかも同じような感じなのかな。興味が湧いてきました。&lt;/p&gt;
+&lt;p&gt;とはいえ、まずは無駄なファイルが生成されずスッキリして良かったです。サーバーのディレクトリ構成や URL にこだわりがなければ、この対応で良いと思いますね。&lt;/p&gt;
+&lt;p&gt;あとは Search Console のインデックスが更新されたらオッケー。しばらく様子見です。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/005_200504-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/005_200504-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/005_200504-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/005_200504-2.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;※掲載した写真は春の大阪城公園を RICOH GR で撮影&lt;/p&gt;</content><category term="Creative"/><category term="Gridsome"/><category term="Vue.js"/></entry><entry><title>PythonとAutomatorでブログ執筆ツールをつくりました</title><link href="/posts/002-startup-blog-writing-env" rel="alternate"/><published>2020-03-29T01:06:42+09:00</published><updated>2021-06-19T13:30:00+09:00</updated><author><name>花村貴史 / Takashi Hanamura</name></author><id>tag:None,2020-03-29:/posts/002-startup-blog-writing-env</id><summary type="html">&lt;p&gt;静的サイトジェネレーター（ SSG ）で作ったサイトの記事は Markdown ファイルで管理します。&lt;/p&gt;
+&lt;p&gt;WordPress でいう Title、Date、Description、Category、tags などの設定もできて、ファイルの冒頭に Front matter と呼ばれるデータを書きこむことで、SSG がよしなに判断してあれこれしてくれます。&lt;/p&gt;
+&lt;p&gt;ただ、記事を書くたびに&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ファイルを作成&lt;/li&gt;
+&lt;li&gt;Front matter （定型文）をコピペ&lt;/li&gt;
+&lt;li&gt;タイトルや日付などを入力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;するのは手間がかかるので macOS の Automator を使ってツールを 2 つ作りました。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Markdown ファイルを作り、任意のエディタを起動するアプリ&lt;/li&gt;
+&lt;li&gt;gridsome develop を起動し、指定のブラウザで localhost に接続するショートカットキー&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;この記事では Python や Automator をどのように使ったかをまとめます。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2021 年 …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;静的サイトジェネレーター（ SSG ）で作ったサイトの記事は Markdown ファイルで管理します。&lt;/p&gt;
+&lt;p&gt;WordPress でいう Title、Date、Description、Category、tags などの設定もできて、ファイルの冒頭に Front matter と呼ばれるデータを書きこむことで、SSG がよしなに判断してあれこれしてくれます。&lt;/p&gt;
+&lt;p&gt;ただ、記事を書くたびに&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ファイルを作成&lt;/li&gt;
+&lt;li&gt;Front matter （定型文）をコピペ&lt;/li&gt;
+&lt;li&gt;タイトルや日付などを入力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;するのは手間がかかるので macOS の Automator を使ってツールを 2 つ作りました。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Markdown ファイルを作り、任意のエディタを起動するアプリ&lt;/li&gt;
+&lt;li&gt;gridsome develop を起動し、指定のブラウザで localhost に接続するショートカットキー&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;この記事では Python や Automator をどのように使ったかをまとめます。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2021 年 6 月現在、SSG を Gridsome から Pelican に変更しました。Front 
+matter の中身も変わったため、掲載している内容やスクリプトが現在とは若干異なっています。でも、本筋は変わっていませんので参考になるかと思います。 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-markdown"&gt;1. Markdown ファイルを作り、任意のエディタを起動するアプリ&lt;/h2&gt;
+&lt;p&gt;※記事の最後にソースコードを載せました。参考にどうぞ。&lt;/p&gt;
+&lt;h3 id="pythonmarkdown"&gt;Python で Markdown ファイルを作る&lt;/h3&gt;
+&lt;p&gt;僕のサイトでは以下のように記事ファイルと画像ファイルを配置しています。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;/static/posts/blog/
+                 &lt;span class="p"&gt;|&lt;/span&gt;
+                 &lt;span class="p"&gt;|&lt;/span&gt;__001/
+                 &lt;span class="p"&gt;|&lt;/span&gt;    &lt;span class="p"&gt;|&lt;/span&gt;__img/
+                 &lt;span class="p"&gt;|&lt;/span&gt;    &lt;span class="p"&gt;|&lt;/span&gt;__001_200322.md
+                 &lt;span class="p"&gt;|&lt;/span&gt;
+                 &lt;span class="p"&gt;|&lt;/span&gt;__002
+                 &lt;span class="p"&gt;|&lt;/span&gt;    &lt;span class="p"&gt;|&lt;/span&gt;__img/
+                 &lt;span class="p"&gt;|&lt;/span&gt;    &lt;span class="p"&gt;|&lt;/span&gt;__002_YYMMDD.md
+                 &lt;span class="p"&gt;|&lt;/span&gt;
+                （以降、003、004と記事ごとに増えていく）
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;「ディレクトリ名が 1 つずつ加算されている」部分やファイル名の「YYMMDD」などがプログラミングの使い所。&lt;/p&gt;
+&lt;p&gt;ディレクトリやファイル操作をすればいいので Pathlib モジュールを使います。パスをオブジェクトとして操作できるようになります。 &lt;/p&gt;
+&lt;p&gt;参考：&lt;a href="https://docs.python.org/ja/3/library/pathlib.html" target="_blank"&gt;pathlib --- オブジェクト指向のファイルシステムパス&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;次は Front matter です。&lt;/p&gt;
+&lt;p&gt;これは以下のようなデータ群になってます。「$」ではじまっている変数はスクリプトを実行するたびに設定します。これを毎回コピペするのはすっごく面倒なのでここでもプログラミングの力を使いましょう。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;---
+title:
+date: &lt;span class="nv"&gt;$date&lt;/span&gt;
+createdAt: &lt;span class="nv"&gt;$date&lt;/span&gt;
+updatedAt: &lt;span class="nv"&gt;$date&lt;/span&gt;
+description:
+image: &lt;span class="nv"&gt;$image&lt;/span&gt;
+slug: &lt;span class="nv"&gt;$slug&lt;/span&gt;
+category:
+tags:
+type: &lt;span class="nv"&gt;$type&lt;/span&gt;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;「$」は定型文や動的にテキストデータを設定するところなので、String モジュールの template を使います。&lt;/p&gt;
+&lt;p&gt;参考：&lt;a href="https://docs.python.org/ja/3/library/string.html" target="_blank"&gt;string --- 一般的な文字列操作&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使い方はかんたんで、Front matter の定義ファイルを開いて、substitute()で$変数に値を入れる。それを Markdown ファイルに write()で OK です。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# gen_md_file.py（一部抜粋）&lt;/span&gt;
+
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;string&lt;/span&gt;
+
+&lt;span class="n"&gt;md_full_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;dir_path&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;dir_name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;_&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;s_date&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.md"&lt;/span&gt;
+
+&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"template/front_matter.txt"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;fm&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Template&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fm&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+    &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;substitute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;l_date&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;img_path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;slug&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;slug&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;post_type&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;md_full_path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"w"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;new_md&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;new_md&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="automator"&gt;Automator からスクリプトを実行してエディタを起動する&lt;/h3&gt;
+&lt;p&gt;スクリプトは作れたけど、新しく記事を書くたびに python コマンドを叩くのは手間です。それにどうせなら Markdown ファイルを開いてすぐブログを書きはじめられたら素敵じゃないですか。&lt;/p&gt;
+&lt;p&gt;そんなときは Automator にシェルコマンドを入力してもらいましょう。&lt;/p&gt;
+&lt;p&gt;Automator を起動して「アプリケーション」を選択。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-1.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;Automator で Python を実行するには、シェルから実行してもらうようにしないといけません。以下の順番でつなげていきます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;シェルスクリプトを実行&lt;/li&gt;
+&lt;li&gt;指定された Finder 項目を取得&lt;/li&gt;
+&lt;li&gt;Finder 項目を開く(お好きなアプリを選択)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-2.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;シェル実行時に Markdown ファイルの絶対パスを print()で出力しています。それが「指定された Finder 項目を取得」につながって、次の「Finder 項目を開く」へとつながっていきます。&lt;/p&gt;
+&lt;p&gt;さらに、どうせなら Automator で作ったアプリのアイコンも変えましょう。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-3.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-3.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-3.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-3.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;まず、Automator で作たアプリの情報ウィンドウを表示させます。次に左上のアイコンを選択状態にしてから、あらかじめクリップボードにコピーしておいた画像を command+v してあげれば OK です。&lt;/p&gt;
+&lt;h2 id="2-gridsome-developlocalhost"&gt;2. gridsome develop を起動し、指定のブラウザで localhost に接続するショートカットキー&lt;/h2&gt;
+&lt;p&gt;記事を書きながらプレビューできたら便利ですよね。今回はショートカットキーで起動するようにします。&lt;/p&gt;
+&lt;p&gt;Automator を起動して「クイックアクション」を選択。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-4.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-4.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-4.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-4.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;以下の順でつなげていきます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;指定された Finder 項目を取得（後述のコマンドファイルを指定）&lt;/li&gt;
+&lt;li&gt;Finder 項目を開く&lt;/li&gt;
+&lt;li&gt;一時停止（ビルドにちょっと時間がかかるため一休み）&lt;/li&gt;
+&lt;li&gt;シェルスクリプトを実行（ブラウザのフルパス + URL ）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-5.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-5.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-5.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-5.jpg 3x"/&gt;&lt;/p&gt;
+&lt;h3 id="_1"&gt;コマンドファイル&lt;/h3&gt;
+&lt;p&gt;「シェルスクリプトを実行」から直接 gridsome develop をすると、ctrl+c で Gridsome のプロセスを停止できません。僕から見えない誰かがプロセスを握ってしまっているためだと思います。&lt;/p&gt;
+&lt;p&gt;なので、以下のコマンドファイルを作り、Terminal を起動してから実行してあげる必要があります。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ touch _start_gridsome.command
+$ vim _start_gridsome.command
+
+&lt;span class="nb"&gt;cd&lt;/span&gt; ~/Develop/MyProject/gridsome_nnamm/
+gridsome develop
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;実行権限をつけるのを忘れずに。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ chmod a+x _start_gridsome.command
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="_2"&gt;ショートカットキーの設定&lt;/h3&gt;
+&lt;p&gt;クイックアクションは macOS のサービスとして扱われるため、システム環境設定から任意のショートカットキーを割り当ててあげましょう。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-6.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-6.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-6.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-6.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;以上で完成です。&lt;/p&gt;
+&lt;h2 id="_3"&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;これで、アプリアイコンをダブルクリックするだけでブログが書けるようになりました。また、必要に応じてショートカットキーでプレビュー画面を起動するということもできました。&lt;/p&gt;
+&lt;p&gt;大満足！&lt;/p&gt;
+&lt;h2 id="gen_md_filepy"&gt;参考： gen_md_file.py&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="sd"&gt;"""&lt;/span&gt;
+&lt;span class="sd"&gt;新規ブログ記事の雛形Markdownファイルを作るスクリプト&lt;/span&gt;
+&lt;span class="sd"&gt;所定のディレクトリに、以下のディレクトリを作成する&lt;/span&gt;
+&lt;span class="sd"&gt;...blog/&lt;/span&gt;
+&lt;span class="sd"&gt;      |__001&lt;/span&gt;
+&lt;span class="sd"&gt;           |_img/&lt;/span&gt;
+&lt;span class="sd"&gt;           |_001_YYMMDD.md（フロントマター含）&lt;/span&gt;
+&lt;span class="sd"&gt;"""&lt;/span&gt;
+
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;configparser&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pathlib&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;string&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;create_front_matter_info&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;work_dir&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;dict&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="sd"&gt;""" フロントマター用のデータを作成する&lt;/span&gt;
+&lt;span class="sd"&gt;    Args:&lt;/span&gt;
+&lt;span class="sd"&gt;        work_dir: 所定のディレクトリパス&lt;/span&gt;
+&lt;span class="sd"&gt;    Returns:&lt;/span&gt;
+&lt;span class="sd"&gt;        dict: フロントマターに設定する情報&lt;/span&gt;
+&lt;span class="sd"&gt;    """&lt;/span&gt;
+
+    &lt;span class="n"&gt;fm_dict&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="s2"&gt;"new_dir_name"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# 新記事を格納するディレクトリ名（作業用）&lt;/span&gt;
+        &lt;span class="s2"&gt;"new_dir_path"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# 上記を含めたフルパス&lt;/span&gt;
+        &lt;span class="s2"&gt;"created_date_long"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# 記事作成日時ロング版（スクリプト実行日時）&lt;/span&gt;
+        &lt;span class="s2"&gt;"created_date_short"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# 上記のショート版&lt;/span&gt;
+        &lt;span class="s2"&gt;"eye_path"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# アイキャッチの画像のパス&lt;/span&gt;
+        &lt;span class="s2"&gt;"slug_str"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# スラッグ&lt;/span&gt;
+        &lt;span class="s2"&gt;"post_type"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"blog"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# ポストタイプはblog&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# 新記事のディレクトリ名（ゼロパディング）とフルバス&lt;/span&gt;
+    &lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pathlib&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Path&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;work_dir&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;dir_list&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;iterdir&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;is_dir&lt;/span&gt;&lt;span class="p"&gt;()]&lt;/span&gt;
+    &lt;span class="n"&gt;dir_list&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="n"&gt;latest_dir&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dir_list&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"new_dir_name"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;latest_dir&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;zfill&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"new_dir_path"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;work_dir&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"new_dir_name"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# 新記事の作成日時（long: YYYY-MM-DD HH:MM:SS / short: YYYYMMDD）&lt;/span&gt;
+    &lt;span class="n"&gt;dt&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"%Y-%m-&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s2"&gt; %H:%M:%S"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"created_date_long"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;dt&lt;/span&gt;
+    &lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"created_date_short"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dt&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"-"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# アイキャッチの画像パス&lt;/span&gt;
+    &lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"eye_path"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s1"&gt;'/ec/blog/ec_blog_&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"new_dir_name"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt;.jpg'&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# スラッグ&lt;/span&gt;
+    &lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"slug_str"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"new_dir_name"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;fm_dict&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"created_date_short"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt;-'&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;fm_dict&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;generate_blog_file&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;dict&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;""" 新記事のディレクトリとファイルを作成する&lt;/span&gt;
+&lt;span class="sd"&gt;    Args:&lt;/span&gt;
+&lt;span class="sd"&gt;        params: フロントマターに設定する情報&lt;/span&gt;
+&lt;span class="sd"&gt;    """&lt;/span&gt;
+
+    &lt;span class="n"&gt;dir_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"new_dir_name"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;dir_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"new_dir_path"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;l_date&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"created_date_long"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;s_date&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"created_date_short"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;img_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"eye_path"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;slug&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"slug_str"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;post_type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"post_type"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# ディレクトリを作成&lt;/span&gt;
+    &lt;span class="n"&gt;pathlib&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Path&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dir_path&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="s2"&gt;"/img/"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;parents&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# mdファイルにテンプレートからフロントマターを設定&lt;/span&gt;
+    &lt;span class="n"&gt;md_full_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;dir_path&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;dir_name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;_&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;s_date&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.md"&lt;/span&gt;
+    &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"template/front_matter.txt"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;fm&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Template&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fm&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+        &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;substitute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;l_date&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;img_path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;slug&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;slug&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;post_type&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;md_full_path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"w"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;new_md&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;new_md&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# macOSのAutomatorと連携するために引数としてファイルパスを出力&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;md_full_path&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;"__main__"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;configparser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ConfigParser&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"config.ini"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;blog_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"path"&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="s2"&gt;"blog"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+    &lt;span class="n"&gt;generate_blog_file&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;create_front_matter_info&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;blog_path&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;▶︎ 最新版は&lt;a href="https://github.com/nnamm/md-generator" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;※勉強がてら flake8/pylint/black を PyCharm に導入してみました。pytest もやってみようと思います。&lt;/p&gt;</content><category term="Creative"/><category term="macOS"/><category term="Python"/></entry></feed>
