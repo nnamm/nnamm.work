@@ -1,0 +1,24 @@
+<div>
+  {# Category #}
+  <svg class="inline-block w-4 h-4 fill-current text-gray-700 py-0.5" xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 24 24">
+    <path d="M11 5c-1.629 0-2.305-1.058-4-3h-7v20h24v-17h-13z"></path>
+  </svg>
+  <a class="metadata-category-link inline-block mr-2"
+     href="{{ SITEURL }}/{{ category.url }}">
+    {{ article.category }}
+  </a>
+  {# Tags #}
+  <div class="inline md:hidden"><br></div>
+  <svg class="inline-block w-4 h-4 fill-current text-gray-700 py-0.5" xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 24 24">
+    <path
+        d="M10.605 0h-10.605v10.609l13.391 13.391 10.609-10.604-13.395-13.396zm-4.191 6.414c-.781.781-2.046.781-2.829.001-.781-.783-.781-2.048 0-2.829.782-.782 2.048-.781 2.829-.001.782.782.781 2.047 0 2.829z"></path>
+  </svg>
+  {% for tag in article.tags|sort %}
+    <a class="metadata-tags-link inline-block"
+       href="{{ SITEURL }}/{{ tag.url }}">
+      {{ tag }}
+    </a>
+  {% endfor %}
+</div>

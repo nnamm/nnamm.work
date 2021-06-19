@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<head>
+  {% block head %}
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="Pelican">
+    <meta name="fb:app_id" content="652239472256159">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nnammg">
+    <meta name="google-site-verification" content="uAnciPeNieWUtkryWWqFeQkRqIkEEzUX7h4A8bSliWY">
+  {% endblock %}
+  {% block extra_head %}{% endblock extra_head %}
+  <link rel="shortcut icon" href="{{ SITEURL }}/favicon.ico">
+  <link rel="apple-touch-icon" href="{{ SITEURL }}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="{{ SITEURL }}/android-chrome-192x192.png">
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/styles.min.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/pygments.min.css">
+  {% include "component/analytics.html" %}
+</head>
+<body>
+<header>{% include "header.html" %}</header>
+{% block content %}{% endblock %}
+<footer>{% include "footer.html" %}</footer>
+{# Script1 - Header nav menu #}
+<script>
+  let mobileMenuButton = document.getElementById('mobileMenuButton')
+  mobileMenuButton.onclick = function () {
+    document.getElementById('sideMenuHideOnMobile').classList.toggle('-translate-y-full')
+    document.getElementById('sideMenuHideOnMobile').classList.toggle('mt-12')
+    document.getElementById('sideMenuHideOnMobile').classList.toggle('shadow')
+    document.getElementById('mobileMenuButtonClose').classList.toggle('hidden')
+    document.getElementById('mobileMenuButtonOpen').classList.toggle('hidden')
+  }
+  // Hide element when click outside nav
+  let theElementContainer = document.getElementsByTagName('nav')[0]
+  document.addEventListener('click', function (event) {
+    if (!theElementContainer.contains(event.target)) {
+      document.getElementById('sideMenuHideOnMobile').classList.add('-translate-y-full')
+      document.getElementById('sideMenuHideOnMobile').classList.remove('mt-12')
+      document.getElementById('sideMenuHideOnMobile').classList.remove('shadow')
+      document.getElementById('mobileMenuButtonOpen').classList.remove('hidden')
+      document.getElementById('mobileMenuButtonClose').classList.add('hidden')
+    }
+  })
+</script>
+{# Script2 - Slide control #}
+<script>
+  window.addEventListener('load', () => {
+    viewSlide('.slideshow img')
+  })
+
+  function viewSlide(className, slideNo = -1) {
+    let imgArray = document.querySelectorAll(className)
+    if (imgArray.length) {
+      if (slideNo >= 0) {
+        imgArray[slideNo].style.opacity = '0'
+      }
+      slideNo++
+      if (slideNo >= imgArray.length) {
+        slideNo = 0
+      }
+      imgArray[slideNo].style.opacity = '1'
+      let msec = 5000
+      setTimeout(() => {
+        viewSlide(className, slideNo)
+      }, msec)
+    }
+  }
+</script>
+{# Script3 - Profile parts #}
+<script>
+  let scrollAnimationElm = document.querySelectorAll('.profile-box')
+  let scrollAnimationFunc = () => {
+    for (let i = 0; i < scrollAnimationElm.length; i++) {
+      let triggerMargin = 600
+      if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
+        scrollAnimationElm[i].classList.add('show')
+      }
+    }
+  }
+  window.addEventListener('load', scrollAnimationFunc)
+  window.addEventListener('scroll', scrollAnimationFunc)
+</script>
+</body>
+</html>

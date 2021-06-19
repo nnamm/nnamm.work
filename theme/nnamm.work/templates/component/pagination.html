@@ -1,0 +1,31 @@
+{% if DEFAULT_PAGINATION %}
+  {% set first_page = articles_paginator.page(1) %}
+  {% set last_page = articles_paginator.page(articles_paginator.num_pages) %}
+  <nav class="flex flex-col items-center my-8">
+    <div class="flex text-xs md:text-sm">
+      {% if articles_page.has_previous() %}
+        <a class="pagination-link" href="{{ SITEURL }}/{{ first_page.url }}">
+          <img class="w-4 h-4" src="{{ SITEURL }}/{{ STATIC_PATHS[0] }}/double-arrow-left.svg" alt="Newest posts">
+        </a>
+        <a class="pagination-link mr-2" href="{{ SITEURL }}/{{ articles_previous_page.url }}">
+          <img class="w-4 h-4" src="{{ SITEURL }}/{{ STATIC_PATHS[0] }}/arrow-left.svg" alt="Newer posts">
+        </a>
+      {% else %}
+        <div class="flex w-20 md:w-24 h-10 mr-2"></div>
+      {% endif %}
+      <div class="h-10 px-4 flex justify-center items-center bg-gray-200 rounded-full">
+        {{ articles_page.number }} / {{ articles_paginator.num_pages }}
+      </div>
+      {% if articles_page.has_next() %}
+        <a class="pagination-link ml-2" href="{{ SITEURL }}/{{ articles_next_page.url }}">
+          <img class="w-4 h-4" src="{{ SITEURL }}/{{ STATIC_PATHS[0] }}/arrow-right.svg" alt="Older posts">
+        </a>
+        <a class="pagination-link" href="{{ SITEURL }}/{{ last_page.url }}">
+          <img class="w-4 h-4" src="{{ SITEURL }}/{{ STATIC_PATHS[0] }}/double-arrow-right.svg" alt="Oldest post">
+        </a>
+      {% else %}
+        <div class="flex w-20 md:w-24 h-10 ml-2"></div>
+      {% endif %}
+    </div>
+  </nav>
+{% endif %}

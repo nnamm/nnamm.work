@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block extra_head %}
+  <meta property="og:title" content="{{ SITENAME }} : {{ SITESUBTITLE }}">
+  <meta property="og:type" content="Website">
+  <meta property="og:url" content="{{ SITEURL }}">
+  <meta property="og:image" content="{{ SITEURL }}/{{ STATIC_PATHS[0] }}/{{ PAGE_PATHS[0] }}/about-0.jpg">
+  <meta property="og:site_name" content="{{ SITENAME }} : {{ SITESUBTITLE }}">
+  <meta property="og:description" content="{{ SITEDESCRIPTION }}">
+{% endblock %}
+{% block content %}
+  {% include "component/slideshow.html" %}
+  {% block content_title %}{% endblock %}
+  {% include "main.html" %}
+{% endblock content %}

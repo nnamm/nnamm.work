@@ -1,0 +1,5 @@
+User-Agent:*
+Disallow:
+
+Sitemap:https://nnamm.work/sitemap.xml
+Host: https://nnamm.work

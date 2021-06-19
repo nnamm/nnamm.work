@@ -1,0 +1,45 @@
+{% if articles %}
+  {% include "component/aside.html" %}
+  <main class="flex flex-col item-center">
+    {% for article in articles_page.object_list %}
+      <article class="w-full md:max-w-3xl md:mx-auto px-4 md:px-10 mb-16">
+        <div class="inline-block text-white text-xs bg-pink-400 rounded-full mb-4 px-4 py-1">
+          {{ article.category }}
+        </div>
+        <a href="{{ SITEURL }}/{{ article.url }}">
+          <img class="image-process-default hover:opacity-80 transition duration-200 rounded-md mb-4"
+               src="{{ article.image }}"
+               alt="Eye catching image for this article"
+               loading="lazy">
+        </a>
+        <a href="{{ SITEURL }}/{{ article.url }}">
+          <h2 class="palt text-xl md:text-2xl font-semibold hover:opacity-70 transition duration-200 mb-6">
+            {{ article.title }}
+          </h2>
+        </a>
+        <p class="text-gray-400 text md:text-sm mb-6 px-1">{{ article.description }}</p>
+        {# Date when sd #}
+        <div class="block md:hidden text-right pr-1">
+          <p class="text-sm md:text-xs text-gray-400">
+            {% if article.modified and article.date != article.modified %}
+              Updated: {{ article.modified | datetime('%Y/%m/%d') }}<br>
+            {% endif %}
+            Published: {{ article.date | datetime('%Y/%m/%d') }}
+          </p>
+        </div>
+        {# Date when over md #}
+        <div class="hidden md:block text-right pr-1">
+          <p class="text-sm md:text-xs text-gray-400">
+            {% if article.date != article.modified %}
+              Updated: {{ article.modified | datetime('%Y/%m/%d') }}&nbsp;｜
+            {% endif %}
+            Published: {{ article.date | datetime('%Y/%m/%d') }}
+          </p>
+        </div>
+      </article>
+    {% endfor %}
+    {% if articles_page.has_other_pages() %}
+      {% include "component/pagination.html" %}
+    {% endif %}
+  </main>
+{% endif %}
