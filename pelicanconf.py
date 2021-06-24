@@ -4,7 +4,7 @@ AUTHOR_DESC = (
     "ソフトウェアエンジニア＆空気感フォトグラファー。Python/Golang/JavaScriptを使ったり、\n"
     "人や場の「空気感」をそっとすくい撮ることを得意としています。"
 )
-SITENAME = "nnamm.work.work"
+SITENAME = "nnamm.work"
 SITESUBTITLE = "portfolio note"
 # for Dev
 SITEURL = ""
