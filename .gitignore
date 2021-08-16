@@ -2,6 +2,7 @@
 .idea
 .mypy_cache
 .vim
+.venv
 __pycache__
 output
 to_srv_root_dir/.htaccess
@@ -14,4 +15,3 @@ theme/nnamm.work/static/css/styles.css
 theme/public
 theme/node_modules
 theme/tailwind_default.config.js
-venv
