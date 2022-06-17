@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>nnamm.work - macOS</title><link href="/" rel="alternate"/><link href="/feeds/macos.rss.xml" rel="self"/><id>/</id><updated>2021-05-30T00:00:00+09:00</updated><subtitle>portfolio note</subtitle><entry><title>iCloud Driveは何でもかんでも同期されるわけじゃないのね</title><link href="/posts/009-be-careful-files-sync-by-icloud" rel="alternate"/><published>2021-05-30T00:00:00+09:00</published><updated>2021-05-30T00:00:00+09:00</updated><author><name>花村貴史 / Takashi Hanamura</name></author><id>tag:None,2021-05-30:/posts/009-be-careful-files-sync-by-icloud</id><summary type="html">&lt;p&gt;今回はデータ管理についての備忘録です。最終的に記事タイトルのことに行き着いた、失敗から得た学びです。&lt;/p&gt;
-&lt;p&gt;僕は開発系のデータを含めて、ざっくりした作業ディレクトリを作っています。Coding とか Photo とか。それらを定期的に外部ストレージにバックアップ。プロジェクトによっては GitHub でも管理します。&lt;/p&gt;
-&lt;p&gt;ある日、データ管理について考えることがありました。&lt;/p&gt;
-&lt;h2 id="_1"&gt;我、名案、閃キ&lt;/h2&gt;
-&lt;p&gt;ふと思ったのです。&lt;/p&gt;
-&lt;p&gt;開発系データを iCloud Drive （正確には macOS の Documents ディレクトリ）に移動したら 2 重で保存されていいじゃーん！&lt;/p&gt;
-&lt;p&gt;そんなわけで嬉々としてフォルダを移動しました。ただ、完全同期されるまで 1 日じゃ終わりませんでした。&lt;/p&gt;
-&lt;p&gt;どうやら 1 万や 10 万といった大量ファイルの同期リクエストがなされると、ファイルサイズに関わらず、とてつもなく時間がかかるようです。調べてみると、これは Dropbox でも同様でした。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;venv 環境や node_modules 群といったものまであったので …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;今回はデータ管理についての備忘録です。最終的に記事タイトルのことに行き着いた、失敗から得た学びです。&lt;/p&gt;
+&lt;p&gt;僕は開 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;今回はデータ管理についての備忘録です。最終的に記事タイトルのことに行き着いた、失敗から得た学びです。&lt;/p&gt;
 &lt;p&gt;僕は開発系のデータを含めて、ざっくりした作業ディレクトリを作っています。Coding とか Photo とか。それらを定期的に外部ストレージにバックアップ。プロジェクトによっては GitHub でも管理します。&lt;/p&gt;
 &lt;p&gt;ある日、データ管理について考えることがありました。&lt;/p&gt;
 &lt;h2 id="_1"&gt;我、名案、閃キ&lt;/h2&gt;

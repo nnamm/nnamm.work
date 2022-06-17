@@ -2,20 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/*----------------------------------*/
-/* Custom property                  */
-/*----------------------------------*/
+/* ----- Custom property ----- */
 :root {
   --main-bg-color: #fcfcfc;
-  --main-text-color: #404040;
-  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "BIZ UDPGothic", Meiryo, "Helvetica Neue", Arial, sans-serif;
-  /*--font-sans2: YuGothic, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic Medium", "BIZ UDPGothic", Meiryo, "Helvetica Neue", Arial, sans-serif;*/
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --main-text-color: #303030;
+  --font-sans: "Avenir-Roman", 'Helvetica Neue', "Arial", 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'BIZ UDPGothic', "Meiryo", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Menlo", "Monaco", "Consolas", 'Liberation Mono', 'Courier New', monospace;
 }
 
-/*----------------------------------*/
-/* General                          */
-/*----------------------------------*/
+/* ----- General ----- */
 body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
@@ -28,11 +23,9 @@ strong {
   @apply font-semibold;
 }
 
-/*----------------------------------*/
-/* Parts                            */
-/*----------------------------------*/
+/* ----- Parts ----- */
 .palt {
-  font-feature-settings: "palt";
+  font-feature-settings: 'palt';
 }
 
 .pagination-link {
@@ -55,110 +48,7 @@ strong {
   @apply bg-pink-200 text-gray-600 text-xs px-2 py-1 hover:bg-pink-300 transition-colors duration-200;
 }
 
-/*----------------------------------*/
-/* Articles                         */
-/*----------------------------------*/
-/*---------- Paragraph ----------*/
-.entry-content p {
-  @apply mt-8 leading-8;
-  line-break: strict;
-}
-
-.entry-content p > img {
-  @apply max-w-full md:max-w-3xl w-full rounded;
-}
-
-.entry-content p > code {
-  @apply px-2 py-1 bg-gray-100;
-}
-
-/*---------- Headline ----------*/
-.entry-content h2 {
-  @apply text-2xl font-semibold mt-16 pl-3 pr-1 py-2 border-l-2 border-pink-300;
-  font-feature-settings: "palt";
-}
-
-.entry-content h3 {
-  @apply text-xl mt-10 px-1 font-semibold pb-1 border-b border-gray-400 border-dotted;
-  font-feature-settings: "palt";
-}
-
-/*---------- Link ----------*/
-.entry-content a:link,
-.entry-content a:visited {
-  @apply text-pink-500;
-}
-
-.entry-content a:hover {
-  @apply text-pink-400;
-}
-
-/*---------- Blockquote ----------*/
-.entry-content blockquote {
-  @apply tracking-wide bg-gray-100 rounded mx-2 my-8 p-6;
-  font-size: .9rem;
-  color: #404040;
-}
-
-.entry-content blockquote > p {
-  @apply m-0 leading-7;
-}
-
-/*---------- Table ----------*/
-.entry-content table {
-  @apply w-full table-auto border-collapse border border-gray-300 mt-6 md:mt-8;
-}
-
-.entry-content table th {
-  @apply text-base md:text-sm px-4 py-1 border border-gray-300 bg-gray-200 tracking-wider;
-}
-
-.entry-content table tr:nth-child(even) {
-  @apply bg-gray-100;
-}
-
-.entry-content table td {
-  @apply text-base md:text-sm px-4 py-1 border border-gray-300 break-all tracking-wide;
-}
-
-/*---------- List (disc) ----------*/
-.entry-content ul {
-  @apply mt-8 leading-8 list-disc list-outside pl-6;
-  line-break: strict;
-}
-
-.entry-content ul > li > ul {
-  @apply mt-1 leading-8 list-outside;
-  list-style-type: circle;
-  line-break: strict;
-}
-
-/*---------- List (number) ----------*/
-.entry-content ol {
-  @apply mt-8 leading-8 list-decimal list-outside pl-6;
-  line-break: strict;
-}
-
-.entry-content ol > li > ol {
-  @apply mt-1 leading-8 list-outside;
-  list-style-type: lower-roman;
-  line-break: strict;
-}
-
-/*---------- Code highlight ----------*/
-.highlight pre {
-  @apply my-4 p-4 break-normal overflow-auto;
-}
-
-.highlight pre code {
-  font-family: var(--font-mono);
-  font-size: .8rem;
-  @apply tracking-wide overflow-visible;
-}
-
-/*----------------------------------*/
-/* Slideshow                        */
-/*----------------------------------*/
+/* ----- Slideshow ----- */
 .slideshow {
   position: relative;
   width: 100%;
@@ -203,12 +93,110 @@ strong {
   object-fit: cover;
 }
 
-/*----------------------------------*/
-/* Profile-box                      */
-/*----------------------------------*/
+/* ----- Articles ----- */
+
+/* 1.Paragraph */
+.entry-content p {
+  line-break: strict;
+  @apply mt-8 leading-8;
+}
+
+.entry-content p > img {
+  @apply max-w-full md:max-w-3xl w-full rounded;
+}
+
+.entry-content p > code {
+  @apply px-2 py-1 bg-gray-100;
+}
+
+/* 2.Headline */
+.entry-content h2 {
+  font-feature-settings: 'palt';
+  @apply text-2xl font-semibold mt-16 pl-3 pr-1 py-2 border-l-2 border-pink-300;
+}
+
+.entry-content h3 {
+  font-feature-settings: 'palt';
+  @apply text-xl mt-10 px-1 font-semibold pb-1 border-b border-gray-500 border-dotted;
+}
+
+/* 3.Link */
+.entry-content a:link,
+.entry-content a:visited {
+  @apply text-pink-500;
+}
+
+.entry-content a:hover {
+  @apply text-pink-400;
+}
+
+/* 4.Blockquote */
+.entry-content blockquote {
+  font-size: 0.9rem;
+  color: #404040;
+  @apply tracking-wide bg-gray-100 rounded mx-2 my-8 p-6;
+}
+
+.entry-content blockquote > p {
+  @apply m-0 leading-7;
+}
+
+/* 5.Table  */
+.entry-content table {
+  @apply w-full table-auto border-collapse border border-gray-300 mt-6 md:mt-8;
+}
+
+.entry-content table th {
+  @apply text-base md:text-sm px-4 py-1 border border-gray-300 bg-gray-200 tracking-wider;
+}
+
+.entry-content table tr:nth-child(even) {
+  @apply bg-gray-100;
+}
+
+.entry-content table td {
+  @apply text-base md:text-sm px-4 py-1 border border-gray-300 break-all tracking-wide;
+}
+
+/* 6.List (disc) */
+.entry-content ul {
+  line-break: strict;
+  @apply mt-8 leading-8 list-disc list-outside pl-6;
+}
+
+.entry-content ul > li > ul {
+  list-style-type: circle;
+  line-break: strict;
+  @apply mt-1 leading-8 list-outside;
+}
+
+/* 7.List (number) */
+.entry-content ol {
+  line-break: strict;
+  @apply mt-8 leading-8 list-decimal list-outside pl-6;
+}
+
+.entry-content ol > li > ol {
+  list-style-type: lower-roman;
+  line-break: strict;
+  @apply mt-1 leading-8 list-outside;
+}
+
+/* 8.Code highlight */
+.highlight pre {
+  @apply my-4 p-4 break-normal overflow-auto;
+}
+
+.highlight pre code {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  @apply tracking-wide overflow-visible;
+}
+
+/* ----- Profile-box ----- */
 .profile-box {
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .profile-box.show {

@@ -1,7 +1,8 @@
 # General
 AUTHOR = "花村貴史 / Takashi Hanamura"
 AUTHOR_DESC = (
-    "ソフトウェアエンジニア＆空気感フォトグラファー。Python/Golang/JavaScriptを使ったり、\n"
+    "ソフトウェアエンジニア＆空気感フォトグラファー。"
+    "オシゴトは SAP ですが、プライベートでは Python/Golang/TS/JS 周辺を嗜みつつ、"
     "人や場の「空気感」をそっとすくい撮ることを得意としています。"
 )
 SITENAME = "nnamm.work"
@@ -56,7 +57,8 @@ AUTHOR_FEED_RSS = None
 
 # Site menu
 HEADER_MENU_ITEMS = (
-    ("Portfolio", "https://www.behance.net/nnamm", "_blank"),
+    ("Portfolio -private-", "https://thanamura.tumblr.com", "_blank"),
+    ("Portfolio -works-", "https://thanamura-portrait.tumblr.com", "_blank"),
     ("Stock Photo", "https://note.com/tnnamm/m/m2aa9550047ed", "_blank"),
     ("About", "http://localhost:8000/pages" + "/about", "_self"),  # for Dev
     (

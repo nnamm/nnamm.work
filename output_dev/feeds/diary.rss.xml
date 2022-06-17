@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>nnamm.work - Diary</title><link href="/" rel="alternate"/><link href="/feeds/diary.rss.xml" rel="self"/><id>/</id><updated>2020-10-06T00:00:00+09:00</updated><subtitle>portfolio note</subtitle><entry><title>Gridsomeでポートフォリオサイト、はじめました</title><link href="/posts/001-start-portfolio-site" rel="alternate"/><published>2019-03-22T00:00:00+09:00</published><updated>2020-10-06T00:00:00+09:00</updated><author><name>花村貴史 / Takashi Hanamura</name></author><id>tag:None,2019-03-22:/posts/001-start-portfolio-site</id><summary type="html">&lt;p&gt;はじめまして、ソフトウェアエンジニア＆写真家の花村貴史です（&lt;a href="https://twitter.com/nnammg" target="_blank"&gt;@nnammg&lt;/a&gt;）。ニックネームは「はなむら」の間をとって「なむ」です。&lt;/p&gt;
-&lt;p&gt;横浜で生まれ育ち、脱サラ信州移住をへて、今は関西で妻と二人暮らしをしています。どんどん西に向かっています（笑）&lt;/p&gt;
-&lt;p&gt;エンジニアとしては SAP （ ERP ）やフロントエンド系に携わりつつ、写真では人物を撮らせていただいたり、風景やストリートを撮っています。愛用のカメラは FUJIFILM X-H1/X-T1、RICOH GR/GXR です。&lt;/p&gt;
-&lt;p&gt;そんな僕が Gridsome と Tailwindcss の力を借りてポートフォリオサイトを作りました。公開にあわせて写真 2 作品、グラフィック 1 作品を載せいてますので、よかったら見てやってください。&lt;/p&gt;
-&lt;h2 id="gridsometailwindcss"&gt;Gridsome と Tailwindcss を使用&lt;/h2&gt;
-&lt;h3 id="wordpress"&gt;なじみの WordPress ではなく静的サイトジェネレーター&lt;/h3&gt;
-&lt;p&gt;僕はもともと WordPress を使っています …&lt;/p&gt;</summary><content type="html">&lt;p&gt;はじめまして、ソフトウェアエンジニア＆写真家の花村貴史です（&lt;a href="https://twitter.com/nnammg" target="_blank"&gt;@nnammg&lt;/a&gt;）。ニックネームは「はなむら」の間をとって「なむ」です。&lt;/p&gt;
+&lt;p&gt;横 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;はじめまして、ソフトウェアエンジニア＆写真家の花村貴史です（&lt;a href="https://twitter.com/nnammg" target="_blank"&gt;@nnammg&lt;/a&gt;）。ニックネームは「はなむら」の間をとって「なむ」です。&lt;/p&gt;
 &lt;p&gt;横浜で生まれ育ち、脱サラ信州移住をへて、今は関西で妻と二人暮らしをしています。どんどん西に向かっています（笑）&lt;/p&gt;
 &lt;p&gt;エンジニアとしては SAP （ ERP ）やフロントエンド系に携わりつつ、写真では人物を撮らせていただいたり、風景やストリートを撮っています。愛用のカメラは FUJIFILM X-H1/X-T1、RICOH GR/GXR です。&lt;/p&gt;
 &lt;p&gt;そんな僕が Gridsome と Tailwindcss の力を借りてポートフォリオサイトを作りました。公開にあわせて写真 2 作品、グラフィック 1 作品を載せいてますので、よかったら見てやってください。&lt;/p&gt;

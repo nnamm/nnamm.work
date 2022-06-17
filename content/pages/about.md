@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2019-03-22 00:00
-modified: 2021-05-29 00:00
+modified: 2022-06-16 00:00
 keyword: 花村貴史,フォトグラファー,ソフトウェアエンジニア,空気感,Photographer,SoftwareEngineer
 slug: about
 author: 花村貴史 / Takashi Hanamura
@@ -23,7 +23,7 @@ image: ../../images/pages/about-0.jpg
 * 関西に来てよかったことは京都が近くなったこと
 * 2010年くらいから親指シフト使い
 
-プライベートではPython/Golang/JavaScriptを使い、オシゴトではWeb系システムを開発しているエンジニアです。週末フォトグラファーでもあります。
+プライベートではPython/Golang/TypeScript/JavaScript周辺を嗜み、オシゴトではSAPに携わっているエンジニアです。週末フォトグラファーでもあります。
 
 被写体は植物や水といった自然が多く、人を撮らせていただくことも。とくに撮られることに慣れてない方の笑顔や、空気感をすくい撮ることを得意としています。
 
@@ -39,6 +39,6 @@ image: ../../images/pages/about-0.jpg
 
 自分でデザインして、自分のドメインで運営し、自分でコンテンツ（ブログのみ）を管理してみたいから静的サイトジェネレーターを利用しています。
 
-もともとVue.jsが好きで使っていた [Gridsome](https://gridsome.org/){:target="_blank"} をやめて、もっと好きなPython製の [Pelican](https://blog.getpelican.com/){:target="_blank"} を使っています。
+もともとVue.jsが好きで使っていた [Gridsome](https://gridsome.org/){:target="_blank"} をやめて、もっと好きなPython製の [Pelican](https://blog.getpelican.com/){:target="_blank"} を使っています。（速度重視で [Hugo](https://gohugo.io/){:target="_blank"} に戻ることもありかな）
 
 SPAとは異なり、静的ファイルが生成されるだけだから非常にシンプルですね。
