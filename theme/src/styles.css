@@ -193,6 +193,18 @@ strong {
   @apply tracking-wide overflow-visible;
 }
 
+/* 9.YouTube */
+.youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  @apply mt-8
+}
+
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+}
+
 /* ----- Profile-box ----- */
 .profile-box {
   opacity: 0;
