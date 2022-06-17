@@ -1,5 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>nnamm.work</title><link href="/" rel="alternate"/><link href="/feeds/all.rss.xml" rel="self"/><id>/</id><updated>2022-06-16T23:00:00+09:00</updated><subtitle>portfolio note</subtitle><entry><title>Golang（Go言語）は懐かしくて馴染むプログラミング言語</title><link href="/posts/011-i-might-like-golang" rel="alternate"/><published>2022-06-16T23:00:00+09:00</published><updated>2022-06-16T23:00:00+09:00</updated><author><name>花村貴史 / Takashi Hanamura</name></author><id>tag:None,2022-06-16:/posts/011-i-might-like-golang</id><summary type="html">&lt;p&gt;僕は &lt;a href="https://note.com/tnnamm/m/m2aa9550047ed" target="_blank"&gt;note で写真素材を販売&lt;/a&gt;していて、写真データをサーバーに公開するときの一連作業を自動化するべく Python スクリプ …&lt;/p&gt;</summary><content type="html">&lt;p&gt;僕は &lt;a href="https://note.com/tnnamm/m/m2aa9550047ed" target="_blank"&gt;note で写真素材を販売&lt;/a&gt;していて、写真データをサーバーに公開するときの一連作業を自動化するべく Python スクリプトを書きました。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>nnamm.work</title><link href="/" rel="alternate"/><link href="/feeds/all.rss.xml" rel="self"/><id>/</id><updated>2022-06-17T12:00:00+09:00</updated><subtitle>portfolio note</subtitle><entry><title>JetBrains製IDEをコマンドラインから起動する方法</title><link href="/posts/012-how-to-start-ide-with-command" rel="alternate"/><published>2022-06-17T12:00:00+09:00</published><updated>2022-06-17T12:00:00+09:00</updated><author><name>花村貴史 / Takashi Hanamura</name></author><id>tag:None,2022-06-17:/posts/012-how-to-start-ide-with-command</id><summary type="html">&lt;h2 id="goland"&gt;"Goland ."と打って起動してはる？&lt;/h2&gt;
+&lt;p&gt;（なぜか関西弁）&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://neovim.io/" target="_blank"&gt;Neovim&lt;/a&gt; に &lt;a href="https://github.com/neoclide/coc.nvim" target="_blank"&gt;coc.nvim&lt;/a&gt; をインストールして、プレーンな Python や Golang の開発環境を構築していた …&lt;/p&gt;</summary><content type="html">&lt;h2 id="goland"&gt;"Goland ."と打って起動してはる？&lt;/h2&gt;
+&lt;p&gt;（なぜか関西弁）&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://neovim.io/" target="_blank"&gt;Neovim&lt;/a&gt; に &lt;a href="https://github.com/neoclide/coc.nvim" target="_blank"&gt;coc.nvim&lt;/a&gt; をインストールして、プレーンな Python や Golang の開発環境を構築していたとき、&lt;a href="https://engineering.mercari.com" target="_blank"&gt;mercari engineering&lt;/a&gt; の記事と動画に辿り着きました。&lt;/p&gt;
+&lt;div class="youtube"&gt;&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="auto" src="https://www.youtube.com/embed/8MdxqDb07eQ" title="YouTube video player" width="100%"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;3:03 あたりのこと。&lt;code&gt;gland .&lt;/code&gt;と入力したらカレントディレクトリで Goland が立ち上がっていました。&lt;/p&gt;
+&lt;p&gt;あら〜こんなことできるの？と調べてみたら、ちょっと手を加えればできることがわかりましたので早速設定。&lt;/p&gt;
+&lt;h2 id="_1"&gt;環境&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;OS/Software&lt;/th&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;macOS&lt;/td&gt;
+&lt;td&gt;11.6.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;JetBrains Toolbox App&lt;/td&gt;
+&lt;td&gt;1.24.1280&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Goland&lt;/td&gt;
+&lt;td&gt;22.1.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PyCharm&lt;/td&gt;
+&lt;td&gt;22.1.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;iTerm&lt;/td&gt;
+&lt;td&gt;3.4.15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="_2"&gt;設定方法&lt;/h2&gt;
+&lt;h3 id="1-generate-shell-scriptson"&gt;1. Generate shell scripts を ON&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;右上の六角形マークをクリック&lt;/li&gt;
+&lt;li&gt;Settings をクリック&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/012/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/012/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/012/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/012/derivatives/crisp/3x/1.jpg 3x"/&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tools をクリック&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/012/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/012/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/012/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/012/derivatives/crisp/3x/2.jpg 3x"/&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Generate shell scripts を ON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/012/derivatives/crisp/1x/3.jpg" srcset="../../images/posts/012/derivatives/crisp/1x/3.jpg 1x, ../../images/posts/012/derivatives/crisp/2x/3.jpg 2x, ../../images/posts/012/derivatives/crisp/3x/3.jpg 3x"/&gt;&lt;/p&gt;
+&lt;h3 id="2"&gt;2. 所定のディレクトリに起動用のシェルを格納&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;環境変数（ echo $PATH ）に登録されいてるパスに「goland」コマンドを作成します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; /usr/loca/bin
+$ vim goland
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;/usr/bin/local/goland&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="ch"&gt;#! /bin/sh&lt;/span&gt;
+open -na &lt;span class="s2"&gt;"GoLand"&lt;/span&gt; --args &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="nv"&gt;$@&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;▶︎ 詳細は &lt;a href="https://www.jetbrains.com/help/go/working-with-the-ide-features-from-command-line.html" target="_blank"&gt;Command-line interface | GoLand&lt;/a&gt; を参照ください&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;実行権限を付与&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ chmod +x goland
+
+&lt;span class="c1"&gt;# 確認&lt;/span&gt;
+$ which goland
+/usr/local/bin/goland
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="pycharm"&gt;※PyCharm も同様に起動できるようにします&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ cp -p goland pycharm
+$ vim pycharm
+
+---
+&lt;span class="c1"&gt;#!/bin/sh&lt;/span&gt;
+open -na &lt;span class="s2"&gt;"PyCharm"&lt;/span&gt; --args &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="nv"&gt;$@&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;
+---
+
+$ which pycharm
+/usr/local/bin/pycharm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;これでコマンドから IDE が起動するようになります。作業ディレクトリ上で&lt;code&gt;goland .&lt;/code&gt;や&lt;code&gt;pycharm .&lt;/code&gt;と入力してみてください。&lt;/p&gt;
+&lt;h2 id="_3"&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;コードを書いていると、できるだけキーボードだけで済ませたくなります。上記のように設定すれば、IDE がサクッと起動できるのでグッと楽になります。&lt;/p&gt;
+&lt;p&gt;もちろん、Terminal で&lt;code&gt;open -na PyCharm .&lt;/code&gt;と入力することで同じことはできます。でも、そこはほら、&lt;strong&gt;もうちょっと Cool にやりたいじゃないですか（笑）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;だからこれでいいのです。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/012/derivatives/crisp/1x/4.jpg" srcset="../../images/posts/012/derivatives/crisp/1x/4.jpg 1x, ../../images/posts/012/derivatives/crisp/2x/4.jpg 2x, ../../images/posts/012/derivatives/crisp/3x/4.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;※掲載した写真は、とある 12 月の京都。伏見稲荷大社の裏山を散策したヨウスを RICOH GR で&lt;/p&gt;
+&lt;h3 id="_4"&gt;お知らせ&lt;/h3&gt;
+&lt;p&gt;JetBrains 製の IDE にご興味がありましたら、&lt;a href="https://samuraism.com/referral-program" target="_blank"&gt;サムライズムさんの紹介プログラム&lt;/a&gt;から購入するとちょっとお得になりますのでリンクを貼っておきます。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://secure.samuraism.com/referral/33D464315EB3916505CA8B3DF9748418"&gt;https://secure.samuraism.com/referral/33D464315EB3916505CA8B3DF9748418&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;こちらから新規購入すると最大 1000 円引きされます。すると、僕の場合は次回更新時に 200 円引きされるというプログラムです。よかったらご利用ください。&lt;/p&gt;</content><category term="Creative"/><category term="PyCharm"/><category term="Goland"/></entry><entry><title>Golang（Go言語）は懐かしくて馴染むプログラミング言語</title><link href="/posts/011-i-might-like-golang" rel="alternate"/><published>2022-06-16T23:00:00+09:00</published><updated>2022-06-16T23:00:00+09:00</updated><author><name>花村貴史 / Takashi Hanamura</name></author><id>tag:None,2022-06-16:/posts/011-i-might-like-golang</id><summary type="html">&lt;p&gt;僕は &lt;a href="https://note.com/tnnamm/m/m2aa9550047ed" target="_blank"&gt;note で写真素材を販売&lt;/a&gt;していて、写真データをサーバーに公開するときの一連作業を自動化するべく Python スクリプ …&lt;/p&gt;</summary><content type="html">&lt;p&gt;僕は &lt;a href="https://note.com/tnnamm/m/m2aa9550047ed" target="_blank"&gt;note で写真素材を販売&lt;/a&gt;していて、写真データをサーバーに公開するときの一連作業を自動化するべく Python スクリプトを書きました。&lt;/p&gt;
 &lt;p&gt;▶︎ &lt;a href="https://github.com/nnamm/pyPhotoMaterials" target="_blank"&gt;https://github.com/nnamm/pyPhotoMaterials&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;長いこと使ってきて機能としては満足していますが、新しい風を起こしたいな〜ということで、学習も兼ねて Golang （ Go 言語）で書きなおすことにしました。&lt;/p&gt;
 &lt;p&gt;▶︎ &lt;a href="https://github.com/nnamm/go-photo-materials" target="_blank"&gt;https://github.com/nnamm/go-photo-materials&lt;/a&gt;&lt;/p&gt;
