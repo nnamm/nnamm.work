@@ -21,7 +21,7 @@
 &lt;p&gt;反面、オブジェクト指向な高級言語に最初は馴染めませんでした。お作法を知らなかったこともありますが、中でどんな処理が行われているか分からず、イメージができなかったからです。&lt;/p&gt;
 &lt;p&gt;というバックボーンが僕にはあります。&lt;/p&gt;
 &lt;p&gt;すると、&lt;strong&gt;Golang で書いているとなんだか懐かしい感覚になるんです。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/011_220616-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/011_220616-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/011_220616-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/011_220616-1.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/011/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/011/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/011/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/011/derivatives/crisp/3x/1.jpg 3x"/&gt;&lt;/p&gt;
 &lt;h2 id="golang3"&gt;Golang の 3 つの懐かしいところ&lt;/h2&gt;
 &lt;h3 id="1"&gt;1. ありそうなことでも実現するには組みあげる&lt;/h3&gt;
 &lt;p&gt;現代の言語なら「〜〜な処理がしたい」と考えたとき、大抵はライブラリが整っていたりすることが多いでしょう。また、&lt;code&gt;print（"hogehoge"）&lt;/code&gt;とすれば標準出力に&lt;code&gt;hogehoge&lt;/code&gt;と表示されますよね。&lt;/p&gt;
@@ -64,7 +64,7 @@
 &lt;p&gt;Golang はオブジェクト指向プログラミング（ OOP ）ではありません。構造体やインターフェースを使えばそれっぽく書けますので、データとメソッドの結びつきがわかるっちゃわかります。&lt;/p&gt;
 &lt;p&gt;Python を使ってきましたが、僕が OOP 的に組めているかというとまだ練習は必要でしょう（そこまで意識することはないでょうけどね）。&lt;/p&gt;
 &lt;p&gt;そんな自己評価のところ、Golang で書くと&lt;strong&gt;思考が楽だなぁ&lt;/strong&gt;と感じてしまうあたり、8 年間で培ったアセンブラ＝手続き型は、良くも悪くも僕の基礎を形作っていると感じますね。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/011_220616-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/011_220616-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/011_220616-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/011_220616-2.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/011/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/011/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/011/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/011/derivatives/crisp/3x/2.jpg 3x"/&gt;&lt;/p&gt;
 &lt;h2 id="golang_1"&gt;Golang を使いこなすのはこれから&lt;/h2&gt;
 &lt;p&gt;懐かしいけれど使いこなせるようになるにはまだまだこれからです。&lt;/p&gt;
 &lt;p&gt;でも何だか楽しいです。&lt;/p&gt;
@@ -75,7 +75,7 @@
 &lt;p&gt;&lt;strong&gt;一気にすべてを知ることはできません。&lt;/strong&gt;&lt;br/&gt;
 &lt;strong&gt;ひとつひとつ知りながら経験していけばいいのです。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;そのためにはまず何でもいいから作りきることが大切ですね。続けた結果、積み上がったものが経験になりますから。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/011_220616-3.jpg" srcset="../../images/posts/derivatives/crisp/1x/011_220616-3.jpg 1x, ../../images/posts/derivatives/crisp/2x/011_220616-3.jpg 2x, ../../images/posts/derivatives/crisp/3x/011_220616-3.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/011/derivatives/crisp/1x/3.jpg" srcset="../../images/posts/011/derivatives/crisp/1x/3.jpg 1x, ../../images/posts/011/derivatives/crisp/2x/3.jpg 2x, ../../images/posts/011/derivatives/crisp/3x/3.jpg 3x"/&gt;&lt;/p&gt;
 &lt;p&gt;※掲載した写真は東福寺周辺を SIGMA fp + NOKTON 40mm F1.2 Aspherical にて撮影&lt;/p&gt;
 &lt;h2 id="cli"&gt;CLI 開発中に参考にしたものリスト&lt;/h2&gt;
 &lt;ul&gt;

@@ -13,7 +13,7 @@
 <meta content="Python｜Pyftpsyncを使ってローカルとリモートを同期する" property="og:title"/>
 <meta content="article" property="og:type"/>
 <meta content="/posts/003-python-ftp-sync/" property="og:url"/>
-<meta content="https://nnamm.work/images/posts/003_200405-0.jpg" property="og:image"/>
+<meta content="https://nnamm.work/images/posts/003/0.jpg" property="og:image"/>
 <meta content="nnamm.work" property="og:site_name"/>
 <meta content="静的サイトジェネレーターで作成したサイトデータやブログ記事を Pyftpsync を使って同期する方法。" property="og:description"/>
 <link href="/favicon.ico" rel="shortcut icon"/>
@@ -72,7 +72,7 @@
           </span>
 </div>
 </div>
-<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/derivatives/default/1x/003_200405-0.jpg" srcset="../../images/posts/derivatives/default/1x/003_200405-0.jpg 1x, ../../images/posts/derivatives/default/2x/003_200405-0.jpg 2x, ../../images/posts/derivatives/default/3x/003_200405-0.jpg 3x"/>
+<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/003/derivatives/default/1x/0.jpg" srcset="../../images/posts/003/derivatives/default/1x/0.jpg 1x, ../../images/posts/003/derivatives/default/2x/0.jpg 2x, ../../images/posts/003/derivatives/default/3x/0.jpg 3x"/>
 </header>
 <div class="hidden xl:flex xl:justify-center xl:sticky xl:top-4">
 <div class="profile-box w-full max-w-screen-xl pointer-events-none">
@@ -123,7 +123,7 @@
 を使うのもありでしょう。push とともに専用サーバーにデプロイされますし、独自ドメインを持っていればリダイレクトもできるようです。</p>
 <p>でも、僕はすでに持っている独自ドメインや WordPress で使っているレンタルサーバーがあるのでこれらを流用したい。それじゃあってことで、公開までさくっとやってくれるスクリプトを組みました。</p>
 <p>Pyftpsync ライブラリを使い、<a href="https://nnamm.work/posts/002-startup-blog-writing-env/">前回と同じく</a>、Automator を使ってアプリケーション化しています。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/003_200405-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/003_200405-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/003_200405-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/003_200405-1.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/003/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/003/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/003/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/003/derivatives/crisp/3x/1.jpg 3x"/></p>
 <h2 id="pyftpsync">Pyftpsync とは</h2>
 <p>Martin Wendt さんがつくられている Python ライブラリで<strong>「ローカルとリモートを rsync コマンド風にやってくれるもの」</strong>と僕は理解しています。</p>
 <p>▶︎ <a href="https://pyftpsync.readthedocs.io/en/latest/index.html" target="_blank">Pyftpsync</a></p>
@@ -141,7 +141,7 @@
 <p>当初の僕の希望である<strong>「rsync コマンドのように差分だけがアップロードされればデプロイも短時間で済むじゃん」</strong>は達成できませんでした。</p>
 <p>でもメリットもちゃんとあります。</p>
 <p><strong>手動でアップロードするよりだんぜん楽</strong>ということ。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/003_200405-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/003_200405-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/003_200405-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/003_200405-2.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/003/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/003/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/003/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/003/derivatives/crisp/3x/2.jpg 3x"/></p>
 <h2 id="pyftpsync_1">Pyftpsync の使い方</h2>
 <p>公式のとおりに作ればとてもカンタン。使いやすい設計です。以下は同期モードの例で、他にアップロードモードがあります。</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">ftpsync.ftp_target</span> <span class="kn">import</span> <span class="n">FtpTarget</span>
@@ -178,7 +178,7 @@
 </ul>
 <p>という視点が磨かれてきましたし、なければつくってしまえ、という思考&amp;行動パターンになってきました。エンジニアに復帰した僕としては、これはとても望ましい成長と思っています。</p>
 <p>ひとつひとつ作っていく感覚は楽しいです。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/003_200405-3.jpg" srcset="../../images/posts/derivatives/crisp/1x/003_200405-3.jpg 1x, ../../images/posts/derivatives/crisp/2x/003_200405-3.jpg 2x, ../../images/posts/derivatives/crisp/3x/003_200405-3.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/003/derivatives/crisp/1x/3.jpg" srcset="../../images/posts/003/derivatives/crisp/1x/3.jpg 1x, ../../images/posts/003/derivatives/crisp/2x/3.jpg 2x, ../../images/posts/003/derivatives/crisp/3x/3.jpg 3x"/></p>
 <p>最近はコロナのせいで自宅に籠る時間ができました。だからこそ、思いっきり勉強したり、思いっきり怠惰をむさぼったり、これまでの生活スタイルを進化させられるんじゃないか、と僕は思います。</p>
 <p>たとえば、当たり前と言われているものの反対をやってみて、人間としての幅を広げられたらいいんじゃないかな。</p>
 <p>「より良い未来のために、今できることをする」です。</p>

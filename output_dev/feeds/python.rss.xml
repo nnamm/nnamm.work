@@ -27,9 +27,9 @@
 &lt;h2 id="file-watchers"&gt;File Watchers プラグイン（ファイル監視機能）&lt;/h2&gt;
 &lt;p&gt;まずはファイルを監視してくれるプラグインを導入します。&lt;/p&gt;
 &lt;p&gt;Preferences → Plugins → &lt;code&gt;file watchers&lt;/code&gt;と検索して Go!!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/006_200518-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/006_200518-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/006_200518-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/006_200518-1.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/006/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/006/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/006/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/006/derivatives/crisp/3x/1.jpg 3x"/&gt;&lt;/p&gt;
 &lt;p&gt;インストールすると、Preferences → Tools に&lt;code&gt;File Watchers&lt;/code&gt;の項目が追加されます。ここに各種ツールの設定を書きます。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/006_200518-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/006_200518-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/006_200518-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/006_200518-2.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/006/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/006/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/006/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/006/derivatives/crisp/3x/2.jpg 3x"/&gt;&lt;/p&gt;
 &lt;h2 id="black"&gt;Black （コードフォーマッター）&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://black.readthedocs.io/en/stable/" target="_blank"&gt;Black&lt;/a&gt;は Python3.6 以上で使える超強力なコードフォーマッターです。PEP8 に準拠しているのはもちろん、「より制限のきつい PEP8」と言われている存在。ユーザーからはほとんど設定変更ができないガッチガチ仕様。&lt;/p&gt;
 &lt;p&gt;▶︎ &lt;a href="https://black.readthedocs.io/en/stable/" target="_blank"&gt;The uncompromising code formatter&lt;/a&gt;&lt;/p&gt;
@@ -42,7 +42,7 @@
 &lt;span class="nx"&gt;line&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;88&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;PyCharm の File Watchers は以下のようにします。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/006_200518-3.jpg" srcset="../../images/posts/derivatives/crisp/1x/006_200518-3.jpg 1x, ../../images/posts/derivatives/crisp/2x/006_200518-3.jpg 2x, ../../images/posts/derivatives/crisp/3x/006_200518-3.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/006/derivatives/crisp/1x/3.jpg" srcset="../../images/posts/006/derivatives/crisp/1x/3.jpg 1x, ../../images/posts/006/derivatives/crisp/2x/3.jpg 2x, ../../images/posts/006/derivatives/crisp/3x/3.jpg 3x"/&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -106,7 +106,7 @@
 &lt;span class="nx"&gt;max&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;line&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;88&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;span class="nx"&gt;max&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;complexity&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;20&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/006_200518-4.jpg" srcset="../../images/posts/derivatives/crisp/1x/006_200518-4.jpg 1x, ../../images/posts/derivatives/crisp/2x/006_200518-4.jpg 2x, ../../images/posts/derivatives/crisp/3x/006_200518-4.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/006/derivatives/crisp/1x/4.jpg" srcset="../../images/posts/006/derivatives/crisp/1x/4.jpg 1x, ../../images/posts/006/derivatives/crisp/2x/4.jpg 2x, ../../images/posts/006/derivatives/crisp/3x/4.jpg 3x"/&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -172,7 +172,7 @@
 &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;include_trailing_comma&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;multi_line_output&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;3&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/006_200518-8.jpg" srcset="../../images/posts/derivatives/crisp/1x/006_200518-8.jpg 1x, ../../images/posts/derivatives/crisp/2x/006_200518-8.jpg 2x, ../../images/posts/derivatives/crisp/3x/006_200518-8.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/006/derivatives/crisp/1x/8.jpg" srcset="../../images/posts/006/derivatives/crisp/1x/8.jpg 1x, ../../images/posts/006/derivatives/crisp/2x/8.jpg 2x, ../../images/posts/006/derivatives/crisp/3x/8.jpg 3x"/&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -222,7 +222,7 @@
 &lt;p&gt;&lt;code&gt;isort --help&lt;/code&gt;でいろいろ確認できます。&lt;/p&gt;
 &lt;h3 id="_4"&gt;■ 導入時の注意点&lt;/h3&gt;
 &lt;p&gt;isort を普通にインストールすると&lt;code&gt;~/.isort.cfg&lt;/code&gt;を参照します。&lt;code&gt;pyproject.toml&lt;/code&gt;で一元管理するためには&lt;code&gt;pip install 'isort[pyproject]'&lt;/code&gt;とするか、PyCharm からなら&lt;code&gt;Options&lt;/code&gt;に&lt;code&gt;pyporject&lt;/code&gt;を指定すれば OK です。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/006_200518-9.jpg" srcset="../../images/posts/derivatives/crisp/1x/006_200518-9.jpg 1x, ../../images/posts/derivatives/crisp/2x/006_200518-9.jpg 2x, ../../images/posts/derivatives/crisp/3x/006_200518-9.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/006/derivatives/crisp/1x/9.jpg" srcset="../../images/posts/006/derivatives/crisp/1x/9.jpg 1x, ../../images/posts/006/derivatives/crisp/2x/9.jpg 2x, ../../images/posts/006/derivatives/crisp/3x/9.jpg 3x"/&gt;&lt;/p&gt;
 &lt;h2 id="mypy"&gt;mypy （静的型ヒントチェッカー）&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/python/mypy" target="_blank"&gt;mypy&lt;/a&gt;は静的な型ヒントチェッカーです。flake8 と同じようなもので「適切に型ヒントかけているかな？」という観点でみてくれます。&lt;/p&gt;
 &lt;h3 id="_5"&gt;■ 設定&lt;/h3&gt;
@@ -230,7 +230,7 @@
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;mypy&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;span class="nx"&gt;ignore_missing_imports&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/006_200518-5.jpg" srcset="../../images/posts/derivatives/crisp/1x/006_200518-5.jpg 1x, ../../images/posts/derivatives/crisp/2x/006_200518-5.jpg 2x, ../../images/posts/derivatives/crisp/3x/006_200518-5.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/006/derivatives/crisp/1x/5.jpg" srcset="../../images/posts/006/derivatives/crisp/1x/5.jpg 1x, ../../images/posts/006/derivatives/crisp/2x/5.jpg 2x, ../../images/posts/006/derivatives/crisp/3x/5.jpg 3x"/&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -301,7 +301,7 @@
 &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;min&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kr"&gt;public&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;methods&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;2&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;min&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kr"&gt;public&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;methods&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;or&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/006_200518-6.jpg" srcset="../../images/posts/derivatives/crisp/1x/006_200518-6.jpg 1x, ../../images/posts/derivatives/crisp/2x/006_200518-6.jpg 2x, ../../images/posts/derivatives/crisp/3x/006_200518-6.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/006/derivatives/crisp/1x/6.jpg" srcset="../../images/posts/006/derivatives/crisp/1x/6.jpg 1x, ../../images/posts/006/derivatives/crisp/2x/6.jpg 2x, ../../images/posts/006/derivatives/crisp/3x/6.jpg 3x"/&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -357,7 +357,7 @@
 &lt;h2 id="_7"&gt;設定ファイルはエクスポートしておくと楽&lt;/h2&gt;
 &lt;p&gt;これまで設定したものを他のプロジェクトに流用できるよう、設定ファイルのインポート／エクスポート機能があります。&lt;/p&gt;
 &lt;p&gt;File Watchers 設定画面の下部にある矢印アイコンがそれ。右上矢印がエクスポート、左下矢印がインポート。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/006_200518-7.jpg" srcset="../../images/posts/derivatives/crisp/1x/006_200518-7.jpg 1x, ../../images/posts/derivatives/crisp/2x/006_200518-7.jpg 2x, ../../images/posts/derivatives/crisp/3x/006_200518-7.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/006/derivatives/crisp/1x/7.jpg" srcset="../../images/posts/006/derivatives/crisp/1x/7.jpg 1x, ../../images/posts/006/derivatives/crisp/2x/7.jpg 2x, ../../images/posts/006/derivatives/crisp/3x/7.jpg 3x"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;pyproject.toml&lt;/code&gt;や&lt;code&gt;.pylintrc&lt;/code&gt;も一緒に保存しておくと非常に楽ですよ。&lt;/p&gt;
 &lt;h2 id="_8"&gt;おわりに&lt;/h2&gt;
 &lt;p&gt;Python の良い点に「コードの読みやすさ」があります。でも、PEP8 などのルールを無視して書いていたらその良さは活かせません。だから、この手のことは IT の力に任せちゃいましょう。&lt;/p&gt;
@@ -380,7 +380,7 @@
 &lt;li&gt;テスト対象：&lt;a href="https://github.com/nnamm/md-generator" target="_blank"&gt;md-generator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;参考「&lt;a href="https://nnamm.work/posts/002-startup-blog-writing-env/"&gt;Python と Automator でブログ執筆環境の自動起動ツールをつくってみた&lt;/a&gt;」&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/004_200429-a.jpg" srcset="../../images/posts/derivatives/crisp/1x/004_200429-a.jpg 1x, ../../images/posts/derivatives/crisp/2x/004_200429-a.jpg 2x, ../../images/posts/derivatives/crisp/3x/004_200429-a.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/004/derivatives/crisp/1x/a.jpg" srcset="../../images/posts/004/derivatives/crisp/1x/a.jpg 1x, ../../images/posts/004/derivatives/crisp/2x/a.jpg 2x, ../../images/posts/004/derivatives/crisp/3x/a.jpg 3x"/&gt;&lt;/p&gt;
 &lt;h2 id="_2"&gt;テストの準備&lt;/h2&gt;
 &lt;h3 id="_3"&gt;テストファイルの作成&lt;/h3&gt;
 &lt;p&gt;まずはテストファイルを作ります。「test_ + テスト対象モジュール名.py」とするのが習わしなので、「test_gen_md_generator.py」となります。&lt;/p&gt;
@@ -452,12 +452,12 @@ Front matter を含めた md ファイルを生成する処理です。とくに
 &lt;p&gt;テストコードを PyCharm で走らせてみます。&lt;/p&gt;
 &lt;h3 id="edit-configurations"&gt;Edit Configurations&lt;/h3&gt;
 &lt;p&gt;Edit Configurations から設定します。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/004_200429-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/004_200429-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/004_200429-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/004_200429-1.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/004/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/004/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/004/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/004/derivatives/crisp/3x/1.jpg 3x"/&gt;&lt;/p&gt;
 &lt;p&gt;Add New Configuration から unittests を選択したら、適当な Name をつけて対象スクリプトを選択して OK します。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="../../images/posts/004_200429-2.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="../../images/posts/004/2.jpg"/&gt;&lt;/p&gt;
 &lt;h3 id="run"&gt;Run&lt;/h3&gt;
 &lt;p&gt;うまくいけば「Tests passed」が表示されます。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/004_200429-3.jpg" srcset="../../images/posts/derivatives/crisp/1x/004_200429-3.jpg 1x, ../../images/posts/derivatives/crisp/2x/004_200429-3.jpg 2x, ../../images/posts/derivatives/crisp/3x/004_200429-3.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/004/derivatives/crisp/1x/3.jpg" srcset="../../images/posts/004/derivatives/crisp/1x/3.jpg 1x, ../../images/posts/004/derivatives/crisp/2x/3.jpg 2x, ../../images/posts/004/derivatives/crisp/3x/3.jpg 3x"/&gt;&lt;/p&gt;
 &lt;p&gt;assert で想定した結果にならなかった場合、どこが間違っているか表示されるので修整もやりやすかったです。&lt;/p&gt;
 &lt;h2 id="_6"&gt;やって良かったこと&lt;/h2&gt;
 &lt;p&gt;潜在的なバグを見つけたことですね。&lt;/p&gt;
@@ -504,7 +504,7 @@ Front matter を含めた md ファイルを生成する処理です。とくに
 &lt;p&gt;テストしやすいということは、コード品質を上げやすいということ。&lt;/p&gt;
 &lt;p&gt;だからといって、やたらと分解していいものでもないと思いますので、その塩梅は開発を経験し、センスが磨かれていくことで掴めていくものでしょう。センスはやればやるほど自然と磨かれているものだからね。&lt;/p&gt;
 &lt;p&gt;ユニットテスト、いい経験と気づきになりました。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/004_200429-b.jpg" srcset="../../images/posts/derivatives/crisp/1x/004_200429-b.jpg 1x, ../../images/posts/derivatives/crisp/2x/004_200429-b.jpg 2x, ../../images/posts/derivatives/crisp/3x/004_200429-b.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/004/derivatives/crisp/1x/b.jpg" srcset="../../images/posts/004/derivatives/crisp/1x/b.jpg 1x, ../../images/posts/004/derivatives/crisp/2x/b.jpg 2x, ../../images/posts/004/derivatives/crisp/3x/b.jpg 3x"/&gt;&lt;/p&gt;
 &lt;p&gt;※写真は大阪城公園を RICOH GR で撮影&lt;/p&gt;</content><category term="Python"/><category term="Python"/></entry><entry><title>Python｜Pyftpsyncを使ってローカルとリモートを同期する</title><link href="/posts/003-python-ftp-sync" rel="alternate"/><published>2020-04-05T20:30:00+09:00</published><updated>2021-06-19T13:00:00+09:00</updated><author><name>花村貴史 / Takashi Hanamura</name></author><id>tag:None,2020-04-05:/posts/003-python-ftp-sync</id><summary type="html">&lt;p&gt;静的サイトジェネレーターでサイトを作ると当然のことながら静的ファイルが生成されます。WordPress とは異なり、記事公 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;静的サイトジェネレーターでサイトを作ると当然のことながら静的ファイルが生成されます。WordPress とは異なり、記事公開までのステップはちょっと手間がかかります。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;記事を書く&lt;/li&gt;
@@ -516,7 +516,7 @@ Front matter を含めた md ファイルを生成する処理です。とくに
 を使うのもありでしょう。push とともに専用サーバーにデプロイされますし、独自ドメインを持っていればリダイレクトもできるようです。&lt;/p&gt;
 &lt;p&gt;でも、僕はすでに持っている独自ドメインや WordPress で使っているレンタルサーバーがあるのでこれらを流用したい。それじゃあってことで、公開までさくっとやってくれるスクリプトを組みました。&lt;/p&gt;
 &lt;p&gt;Pyftpsync ライブラリを使い、&lt;a href="https://nnamm.work/posts/002-startup-blog-writing-env/"&gt;前回と同じく&lt;/a&gt;、Automator を使ってアプリケーション化しています。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/003_200405-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/003_200405-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/003_200405-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/003_200405-1.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/003/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/003/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/003/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/003/derivatives/crisp/3x/1.jpg 3x"/&gt;&lt;/p&gt;
 &lt;h2 id="pyftpsync"&gt;Pyftpsync とは&lt;/h2&gt;
 &lt;p&gt;Martin Wendt さんがつくられている Python ライブラリで&lt;strong&gt;「ローカルとリモートを rsync コマンド風にやってくれるもの」&lt;/strong&gt;と僕は理解しています。&lt;/p&gt;
 &lt;p&gt;▶︎ &lt;a href="https://pyftpsync.readthedocs.io/en/latest/index.html" target="_blank"&gt;Pyftpsync&lt;/a&gt;&lt;/p&gt;
@@ -534,7 +534,7 @@ Front matter を含めた md ファイルを生成する処理です。とくに
 &lt;p&gt;当初の僕の希望である&lt;strong&gt;「rsync コマンドのように差分だけがアップロードされればデプロイも短時間で済むじゃん」&lt;/strong&gt;は達成できませんでした。&lt;/p&gt;
 &lt;p&gt;でもメリットもちゃんとあります。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;手動でアップロードするよりだんぜん楽&lt;/strong&gt;ということ。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/003_200405-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/003_200405-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/003_200405-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/003_200405-2.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/003/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/003/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/003/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/003/derivatives/crisp/3x/2.jpg 3x"/&gt;&lt;/p&gt;
 &lt;h2 id="pyftpsync_1"&gt;Pyftpsync の使い方&lt;/h2&gt;
 &lt;p&gt;公式のとおりに作ればとてもカンタン。使いやすい設計です。以下は同期モードの例で、他にアップロードモードがあります。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;ftpsync.ftp_target&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;FtpTarget&lt;/span&gt;
@@ -571,7 +571,7 @@ Front matter を含めた md ファイルを生成する処理です。とくに
 &lt;/ul&gt;
 &lt;p&gt;という視点が磨かれてきましたし、なければつくってしまえ、という思考&amp;amp;行動パターンになってきました。エンジニアに復帰した僕としては、これはとても望ましい成長と思っています。&lt;/p&gt;
 &lt;p&gt;ひとつひとつ作っていく感覚は楽しいです。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/003_200405-3.jpg" srcset="../../images/posts/derivatives/crisp/1x/003_200405-3.jpg 1x, ../../images/posts/derivatives/crisp/2x/003_200405-3.jpg 2x, ../../images/posts/derivatives/crisp/3x/003_200405-3.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/003/derivatives/crisp/1x/3.jpg" srcset="../../images/posts/003/derivatives/crisp/1x/3.jpg 1x, ../../images/posts/003/derivatives/crisp/2x/3.jpg 2x, ../../images/posts/003/derivatives/crisp/3x/3.jpg 3x"/&gt;&lt;/p&gt;
 &lt;p&gt;最近はコロナのせいで自宅に籠る時間ができました。だからこそ、思いっきり勉強したり、思いっきり怠惰をむさぼったり、これまでの生活スタイルを進化させられるんじゃないか、と僕は思います。&lt;/p&gt;
 &lt;p&gt;たとえば、当たり前と言われているものの反対をやってみて、人間としての幅を広げられたらいいんじゃないかな。&lt;/p&gt;
 &lt;p&gt;「より良い未来のために、今できることをする」です。&lt;/p&gt;

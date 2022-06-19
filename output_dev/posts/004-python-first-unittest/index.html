@@ -13,7 +13,7 @@
 <meta content="Python｜はじめてのunittest、使い方を整理してみる" property="og:title"/>
 <meta content="article" property="og:type"/>
 <meta content="/posts/004-python-first-unittest/" property="og:url"/>
-<meta content="https://nnamm.work/images/posts/004_200429-0.jpg" property="og:image"/>
+<meta content="https://nnamm.work/images/posts/004/0.jpg" property="og:image"/>
 <meta content="nnamm.work" property="og:site_name"/>
 <meta content="unittestのテストコードの書き方と、テストをして良かったことや気づいたこと。" property="og:description"/>
 <link href="/favicon.ico" rel="shortcut icon"/>
@@ -72,7 +72,7 @@
           </span>
 </div>
 </div>
-<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/derivatives/default/1x/004_200429-0.jpg" srcset="../../images/posts/derivatives/default/1x/004_200429-0.jpg 1x, ../../images/posts/derivatives/default/2x/004_200429-0.jpg 2x, ../../images/posts/derivatives/default/3x/004_200429-0.jpg 3x"/>
+<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/004/derivatives/default/1x/0.jpg" srcset="../../images/posts/004/derivatives/default/1x/0.jpg 1x, ../../images/posts/004/derivatives/default/2x/0.jpg 2x, ../../images/posts/004/derivatives/default/3x/0.jpg 3x"/>
 </header>
 <div class="hidden xl:flex xl:justify-center xl:sticky xl:top-4">
 <div class="profile-box w-full max-w-screen-xl pointer-events-none">
@@ -121,7 +121,7 @@
 <li>テスト対象：<a href="https://github.com/nnamm/md-generator" target="_blank">md-generator</a></li>
 <li>参考「<a href="https://nnamm.work/posts/002-startup-blog-writing-env/">Python と Automator でブログ執筆環境の自動起動ツールをつくってみた</a>」</li>
 </ul>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/004_200429-a.jpg" srcset="../../images/posts/derivatives/crisp/1x/004_200429-a.jpg 1x, ../../images/posts/derivatives/crisp/2x/004_200429-a.jpg 2x, ../../images/posts/derivatives/crisp/3x/004_200429-a.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/004/derivatives/crisp/1x/a.jpg" srcset="../../images/posts/004/derivatives/crisp/1x/a.jpg 1x, ../../images/posts/004/derivatives/crisp/2x/a.jpg 2x, ../../images/posts/004/derivatives/crisp/3x/a.jpg 3x"/></p>
 <h2 id="_2">テストの準備</h2>
 <h3 id="_3">テストファイルの作成</h3>
 <p>まずはテストファイルを作ります。「test_ + テスト対象モジュール名.py」とするのが習わしなので、「test_gen_md_generator.py」となります。</p>
@@ -193,12 +193,12 @@ Front matter を含めた md ファイルを生成する処理です。とくに
 <p>テストコードを PyCharm で走らせてみます。</p>
 <h3 id="edit-configurations">Edit Configurations</h3>
 <p>Edit Configurations から設定します。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/004_200429-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/004_200429-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/004_200429-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/004_200429-1.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/004/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/004/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/004/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/004/derivatives/crisp/3x/1.jpg 3x"/></p>
 <p>Add New Configuration から unittests を選択したら、適当な Name をつけて対象スクリプトを選択して OK します。</p>
-<p><img alt="" src="../../images/posts/004_200429-2.jpg"/></p>
+<p><img alt="" src="../../images/posts/004/2.jpg"/></p>
 <h3 id="run">Run</h3>
 <p>うまくいけば「Tests passed」が表示されます。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/004_200429-3.jpg" srcset="../../images/posts/derivatives/crisp/1x/004_200429-3.jpg 1x, ../../images/posts/derivatives/crisp/2x/004_200429-3.jpg 2x, ../../images/posts/derivatives/crisp/3x/004_200429-3.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/004/derivatives/crisp/1x/3.jpg" srcset="../../images/posts/004/derivatives/crisp/1x/3.jpg 1x, ../../images/posts/004/derivatives/crisp/2x/3.jpg 2x, ../../images/posts/004/derivatives/crisp/3x/3.jpg 3x"/></p>
 <p>assert で想定した結果にならなかった場合、どこが間違っているか表示されるので修整もやりやすかったです。</p>
 <h2 id="_6">やって良かったこと</h2>
 <p>潜在的なバグを見つけたことですね。</p>
@@ -245,7 +245,7 @@ Front matter を含めた md ファイルを生成する処理です。とくに
 <p>テストしやすいということは、コード品質を上げやすいということ。</p>
 <p>だからといって、やたらと分解していいものでもないと思いますので、その塩梅は開発を経験し、センスが磨かれていくことで掴めていくものでしょう。センスはやればやるほど自然と磨かれているものだからね。</p>
 <p>ユニットテスト、いい経験と気づきになりました。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/004_200429-b.jpg" srcset="../../images/posts/derivatives/crisp/1x/004_200429-b.jpg 1x, ../../images/posts/derivatives/crisp/2x/004_200429-b.jpg 2x, ../../images/posts/derivatives/crisp/3x/004_200429-b.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/004/derivatives/crisp/1x/b.jpg" srcset="../../images/posts/004/derivatives/crisp/1x/b.jpg 1x, ../../images/posts/004/derivatives/crisp/2x/b.jpg 2x, ../../images/posts/004/derivatives/crisp/3x/b.jpg 3x"/></p>
 <p>※写真は大阪城公園を RICOH GR で撮影</p>
 </div>
 <div class="w-full md:max-w-3xl md:mx-auto mt-12 mb-20 px-4 md:px-10">

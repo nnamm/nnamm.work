@@ -13,7 +13,7 @@
 <meta content="Gridsome｜v-ifを使いテンプレート内でデザインを分ける" property="og:title"/>
 <meta content="article" property="og:type"/>
 <meta content="/posts/005-separate-the-designs/" property="og:url"/>
-<meta content="https://nnamm.work/images/posts/005_200504-0.jpg" property="og:image"/>
+<meta content="https://nnamm.work/images/posts/005/0.jpg" property="og:image"/>
 <meta content="nnamm.work" property="og:site_name"/>
 <meta content="multi templatesでは想定する動作にならないため、条件付きレンダリングでデザインを分けました。" property="og:description"/>
 <link href="/favicon.ico" rel="shortcut icon"/>
@@ -66,7 +66,7 @@
           </span>
 </div>
 </div>
-<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/derivatives/default/1x/005_200504-0.jpg" srcset="../../images/posts/derivatives/default/1x/005_200504-0.jpg 1x, ../../images/posts/derivatives/default/2x/005_200504-0.jpg 2x, ../../images/posts/derivatives/default/3x/005_200504-0.jpg 3x"/>
+<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/005/derivatives/default/1x/0.jpg" srcset="../../images/posts/005/derivatives/default/1x/0.jpg 1x, ../../images/posts/005/derivatives/default/2x/0.jpg 2x, ../../images/posts/005/derivatives/default/3x/0.jpg 3x"/>
 </header>
 <div class="hidden xl:flex xl:justify-center xl:sticky xl:top-4">
 <div class="profile-box w-full max-w-screen-xl pointer-events-none">
@@ -111,7 +111,7 @@
 <p>基本的にコレクション（ md ファイル等）とテンプレート（ vue ファイル）は 1 対 1 の関係ですが、任意のページだけ専用のテンプレートを適用できるもの、と僕は理解してます。</p>
 <p>しかし、Build すると同じ記事データが複数生成されてしまい、記事の重複が起こりました。</p>
 <p>dist をそのままサーバーにアップロードしたら SEO 的にどうなの？と考えた末、ひとまず、テンプレート内で「v-if / v-if-else / v-else」を使って乗り切ることにしました。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/005_200504-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/005_200504-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/005_200504-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/005_200504-1.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/005/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/005/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/005/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/005/derivatives/crisp/3x/1.jpg 3x"/></p>
 <h2 id="_1">記事が重複する？</h2>
 <p>サイト公開当初は 1 種類のコレクション（ Markdown ）から GraphQL の Filter を使って、3 種類のコンテンツを抽出していました。</p>
 <div class="highlight"><pre><span></span><code>// コンテンツ抽出イメージ
@@ -317,7 +317,7 @@ dist
 <p>Gridsome はこのような仕様でしたが（僕の使い方が正しいか判断できませんが）、他の SSG はどうなんでしょうね。有名な Nuxt.js や Gatsby.js なんかも同じような感じなのかな。興味が湧いてきました。</p>
 <p>とはいえ、まずは無駄なファイルが生成されずスッキリして良かったです。サーバーのディレクトリ構成や URL にこだわりがなければ、この対応で良いと思いますね。</p>
 <p>あとは Search Console のインデックスが更新されたらオッケー。しばらく様子見です。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/005_200504-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/005_200504-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/005_200504-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/005_200504-2.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/005/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/005/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/005/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/005/derivatives/crisp/3x/2.jpg 3x"/></p>
 <p>※掲載した写真は春の大阪城公園を RICOH GR で撮影</p>
 </div>
 <div class="w-full md:max-w-3xl md:mx-auto mt-12 mb-20 px-4 md:px-10">

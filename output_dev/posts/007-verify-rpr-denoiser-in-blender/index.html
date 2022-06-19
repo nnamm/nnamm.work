@@ -13,7 +13,7 @@
 <meta content="Blender｜RPR DenoiserとDenoise Nodeの性能を検証する" property="og:title"/>
 <meta content="article" property="og:type"/>
 <meta content="/posts/007-verify-rpr-denoiser-in-blender/" property="og:url"/>
-<meta content="https://nnamm.work/images/posts/007_200607-0.jpg" property="og:image"/>
+<meta content="https://nnamm.work/images/posts/007/0.jpg" property="og:image"/>
 <meta content="nnamm.work" property="og:site_name"/>
 <meta content="Radeon ProRenderとBlenderが持つデノイザのノイズ除去性能を調べました。" property="og:description"/>
 <link href="/favicon.ico" rel="shortcut icon"/>
@@ -72,7 +72,7 @@
           </span>
 </div>
 </div>
-<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/derivatives/default/1x/007_200607-0.jpg" srcset="../../images/posts/derivatives/default/1x/007_200607-0.jpg 1x, ../../images/posts/derivatives/default/2x/007_200607-0.jpg 2x, ../../images/posts/derivatives/default/3x/007_200607-0.jpg 3x"/>
+<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/007/derivatives/default/1x/0.jpg" srcset="../../images/posts/007/derivatives/default/1x/0.jpg 1x, ../../images/posts/007/derivatives/default/2x/0.jpg 2x, ../../images/posts/007/derivatives/default/3x/0.jpg 3x"/>
 </header>
 <div class="hidden xl:flex xl:justify-center xl:sticky xl:top-4">
 <div class="profile-box w-full max-w-screen-xl pointer-events-none">
@@ -128,7 +128,7 @@
 <li>Blender 2.83 LTS</li>
 </ul>
 <h2 id="prorender-rpr-denoiser">ProRender RPR Denoiser</h2>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_200607-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_200607-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_200607-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_200607-1.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/1.jpg 3x"/></p>
 <p>2020 年 5 月に ProRender v2.4 系がリリースされました。現段階で 4 種類のデノイズフィルタがあります。</p>
 <ol>
 <li>Bilateral</li>
@@ -138,7 +138,7 @@
 </ol>
 <p>v2.4 で macOS の ML Denoising がサポートされたこともあり、いっちょ性能を調べてみようと思ったのです。この記事を書くきっかけですね。</p>
 <h2 id="blender-denoise-node">Blender Denoise Node</h2>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_200607-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_200607-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_200607-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_200607-2.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/2.jpg 3x"/></p>
 <p>Blender 2.81 のとき Intel Open Image Denoise を搭載した Node が追加されました。</p>
 <p>▶︎ <a href="https://nnamm.com/blog/6564" target="_blank">Blender｜Intel 製 AI ノイズ除去機能「Intel Open Image Denoiser」を試す – Takashi Q. Hanamura Photography</a></p>
 <p>ノイズ除去させるにはいくつかの設定が必要です。しかし、レンダラーを ProRender に変更するとそれらの設定ができません。でも、Compositing で Render Layers から Denoise Node を通すだけでも効果はあるのでまぁ問題はないでしょう。</p>
@@ -152,30 +152,30 @@
 <li>カッコ内はレンダリング時間（分 秒 ミリ秒）</li>
 </ul>
 <h3 id="1rpr-denoiseroff-donoise-nodeoff-1m18s33">① RPR Denoiser(OFF) &amp; Donoise Node(OFF) [1m18s33]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise1_no-RPR-denoiser_1m18s33.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise1_no-RPR-denoiser_1m18s33.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise1_no-RPR-denoiser_1m18s33.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise1_no-RPR-denoiser_1m18s33.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise1_no-RPR-denoiser_1m18s33.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise1_no-RPR-denoiser_1m18s33.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise1_no-RPR-denoiser_1m18s33.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise1_no-RPR-denoiser_1m18s33.jpg 3x"/></p>
 <p>左手前部分のボケがノイジーです。</p>
 <h3 id="2rpr-denoiseroff-donoise-nodeon-1m20s20">② RPR Denoiser(OFF) &amp; Donoise Node(ON) [1m20s20]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise6_no-RPR-denoiser-DenoiseNODE_1m20s20.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise6_no-RPR-denoiser-DenoiseNODE_1m20s20.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise6_no-RPR-denoiser-DenoiseNODE_1m20s20.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise6_no-RPR-denoiser-DenoiseNODE_1m20s20.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise6_no-RPR-denoiser-DenoiseNODE_1m20s20.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise6_no-RPR-denoiser-DenoiseNODE_1m20s20.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise6_no-RPR-denoiser-DenoiseNODE_1m20s20.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise6_no-RPR-denoiser-DenoiseNODE_1m20s20.jpg 3x"/></p>
 <p>①に比べ、左手前部分のボケのノイジーさが緩和されました。最終的に僕のベストはこの設定です。</p>
 <h3 id="3rpr-denoiserbilateral-donoise-nodeoff-1m19s29">③ RPR Denoiser(Bilateral) &amp; Donoise Node(OFF) [1m19s29]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise2_Bilateral_1m19s29.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise2_Bilateral_1m19s29.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise2_Bilateral_1m19s29.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise2_Bilateral_1m19s29.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise2_Bilateral_1m19s29.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise2_Bilateral_1m19s29.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise2_Bilateral_1m19s29.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise2_Bilateral_1m19s29.jpg 3x"/></p>
 <h3 id="4rpr-denoiserbilateral-donoise-nodeon-1m21s23">④ RPR Denoiser(Bilateral) &amp; Donoise Node(ON) [1m21s23]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise7_Bilateral-DenoseNODE_1m21s23.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise7_Bilateral-DenoseNODE_1m21s23.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise7_Bilateral-DenoseNODE_1m21s23.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise7_Bilateral-DenoseNODE_1m21s23.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise7_Bilateral-DenoseNODE_1m21s23.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise7_Bilateral-DenoseNODE_1m21s23.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise7_Bilateral-DenoseNODE_1m21s23.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise7_Bilateral-DenoseNODE_1m21s23.jpg 3x"/></p>
 <p>③と④はどちらもあまり変わらない感じ。③の場合、中心付近に赤い斑点が目立ちますが、Denoise Node ON にすると消えます。</p>
 <h3 id="5rpr-denoiserlocal-weighted-regression-donoise-nodeoff-1m21s71">⑤ RPR Denoiser(Local Weighted Regression) &amp; Donoise Node(OFF) [1m21s71]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise3_Local-Weighted-Regression_1m21s71.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise3_Local-Weighted-Regression_1m21s71.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise3_Local-Weighted-Regression_1m21s71.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise3_Local-Weighted-Regression_1m21s71.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise3_Local-Weighted-Regression_1m21s71.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise3_Local-Weighted-Regression_1m21s71.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise3_Local-Weighted-Regression_1m21s71.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise3_Local-Weighted-Regression_1m21s71.jpg 3x"/></p>
 <h3 id="6rpr-denoiserlocal-weighted-regression-donoise-nodeon-1m23s99">⑥ RPR Denoiser(Local Weighted Regression) &amp; Donoise Node(ON) [1m23s99]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise8_Local-Weighted-Regression-DenoseNODE_1m23s99.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise8_Local-Weighted-Regression-DenoseNODE_1m23s99.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise8_Local-Weighted-Regression-DenoseNODE_1m23s99.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise8_Local-Weighted-Regression-DenoseNODE_1m23s99.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise8_Local-Weighted-Regression-DenoseNODE_1m23s99.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise8_Local-Weighted-Regression-DenoseNODE_1m23s99.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise8_Local-Weighted-Regression-DenoseNODE_1m23s99.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise8_Local-Weighted-Regression-DenoseNODE_1m23s99.jpg 3x"/></p>
 <p>③と④と同じ感想です。僕は Bilateral の方が好み。</p>
 <h3 id="7rpr-denoiseredge-avoiding-wavelets-donoise-nodeoff-1m19s51">⑦ RPR Denoiser(Edge Avoiding Wavelets) &amp; Donoise Node(OFF) [1m19s51]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise4_Edge-Avoiding-Wavelets_1m19s51.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise4_Edge-Avoiding-Wavelets_1m19s51.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise4_Edge-Avoiding-Wavelets_1m19s51.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise4_Edge-Avoiding-Wavelets_1m19s51.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise4_Edge-Avoiding-Wavelets_1m19s51.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise4_Edge-Avoiding-Wavelets_1m19s51.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise4_Edge-Avoiding-Wavelets_1m19s51.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise4_Edge-Avoiding-Wavelets_1m19s51.jpg 3x"/></p>
 <h3 id="8rpr-denoiseredge-avoiding-wavelets-donoise-nodeon-1m21s15">⑧ RPR Denoiser(Edge Avoiding Wavelets) &amp; Donoise Node(ON) [1m21s15]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise9_Edge-Avoiding-Wavelets-DenoseNODE_1m21s15.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise9_Edge-Avoiding-Wavelets-DenoseNODE_1m21s15.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise9_Edge-Avoiding-Wavelets-DenoseNODE_1m21s15.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise9_Edge-Avoiding-Wavelets-DenoseNODE_1m21s15.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise9_Edge-Avoiding-Wavelets-DenoseNODE_1m21s15.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise9_Edge-Avoiding-Wavelets-DenoseNODE_1m21s15.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise9_Edge-Avoiding-Wavelets-DenoseNODE_1m21s15.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise9_Edge-Avoiding-Wavelets-DenoseNODE_1m21s15.jpg 3x"/></p>
 <p>Edge Avoiding Wavelets フィルタは独特です。ON にすると表面が流れているようになって、正直「え？これありなの？」と思ったくらいです。これが活かせるシーンはあるのでしょうけど、僕はわからなかったです。</p>
 <h3 id="9rpr-denoisermachine-learning-donoise-nodeoff-1m22s65">⑨ RPR Denoiser(Machine Learning) &amp; Donoise Node(OFF) [1m22s65]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise5_Machine-Learning-AOVoff_1m22s65.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise5_Machine-Learning-AOVoff_1m22s65.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise5_Machine-Learning-AOVoff_1m22s65.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise5_Machine-Learning-AOVoff_1m22s65.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise5_Machine-Learning-AOVoff_1m22s65.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise5_Machine-Learning-AOVoff_1m22s65.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise5_Machine-Learning-AOVoff_1m22s65.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise5_Machine-Learning-AOVoff_1m22s65.jpg 3x"/></p>
 <h3 id="10rpr-denoisermachine-learning-donoise-nodeon-1m25s94">⑩ RPR Denoiser(Machine Learning) &amp; Donoise Node(ON) [1m25s94]</h3>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_1_denoise10_Machine-Learning-DenoseNODE_1m25s94.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_1_denoise10_Machine-Learning-DenoseNODE_1m25s94.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_1_denoise10_Machine-Learning-DenoseNODE_1m25s94.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_1_denoise10_Machine-Learning-DenoseNODE_1m25s94.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_1_denoise10_Machine-Learning-DenoseNODE_1m25s94.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_1_denoise10_Machine-Learning-DenoseNODE_1m25s94.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_1_denoise10_Machine-Learning-DenoseNODE_1m25s94.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_1_denoise10_Machine-Learning-DenoseNODE_1m25s94.jpg 3x"/></p>
 <p>⑨も⑩もノイズ除去はいい感じだと思います。ただ、赤い斑点が消えませんでした。となると設定したテクスチャなどが影響していたりするのかもです。</p>
 <blockquote>
 <p>※Machine Learning について<br/>
@@ -276,9 +276,9 @@ Use Color AOV only というチェックボックスがあるのですが、ON �
 <li>Denoise Node ： ON</li>
 </ul>
 <p>▼RPR Denoiser - Bilateral ON</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_2_bilateral-on-denoisenode-on.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_2_bilateral-on-denoisenode-on.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_2_bilateral-on-denoisenode-on.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_2_bilateral-on-denoisenode-on.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_2_bilateral-on-denoisenode-on.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_2_bilateral-on-denoisenode-on.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_2_bilateral-on-denoisenode-on.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_2_bilateral-on-denoisenode-on.jpg 3x"/></p>
 <p>▼RPR Denoiser - Bilateral OFF</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/007_2_bilateral-off-denoisenode-on.jpg" srcset="../../images/posts/derivatives/crisp/1x/007_2_bilateral-off-denoisenode-on.jpg 1x, ../../images/posts/derivatives/crisp/2x/007_2_bilateral-off-denoisenode-on.jpg 2x, ../../images/posts/derivatives/crisp/3x/007_2_bilateral-off-denoisenode-on.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/007/derivatives/crisp/1x/007_2_bilateral-off-denoisenode-on.jpg" srcset="../../images/posts/007/derivatives/crisp/1x/007_2_bilateral-off-denoisenode-on.jpg 1x, ../../images/posts/007/derivatives/crisp/2x/007_2_bilateral-off-denoisenode-on.jpg 2x, ../../images/posts/007/derivatives/crisp/3x/007_2_bilateral-off-denoisenode-on.jpg 3x"/></p>
 <p>PC で見るとわかるのですが、中心の青い球体のエッジが Bilateral ON にすると眠くなっているように僕は感じます。</p>
 <h2 id="_3">まとめ</h2>
 <p>ProRender を使うときは RPR Denoiser ではなく、Blender 標準の Denoise Node を使いましょう。得られる結果の期待値は高いと思われます。</p>

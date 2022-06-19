@@ -34,7 +34,7 @@
 &lt;p&gt;雛形をベースにポートフォリオサイト開発段階で、購入したばかりの&lt;a href="https://www.jetbrains.com/ja-jp/pycharm/" target="_blank"&gt;PyCharm&lt;/a&gt;に移行。WebStorm に Python 機能がくっついているので Web 開発も充分。ツールに慣れるためにも実戦投入。&lt;/p&gt;
 &lt;p&gt;すごく便利なエディタですね。&lt;/p&gt;
 &lt;p&gt;さすがに Gridsome 特有のコードはエラーやワーニングになりますが、GitHub にコミットするときに GUI で確認できたり、そのほか開発するための機能がてんこ盛り。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/001_200322-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/001_200322-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/001_200322-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/001_200322-1.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/001/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/001/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/001/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/001/derivatives/crisp/3x/1.jpg 3x"/&gt;&lt;/p&gt;
 &lt;h2 id="_2"&gt;ポートフォリオ、スタートです&lt;/h2&gt;
 &lt;p&gt;Vue.js や Gridsome のお作法を調べながら作ってきたのでずいぶん時間はかかりましたがようやく形になりました！&lt;/p&gt;
 &lt;p&gt;とはいえ、サイトはまだ生まれたばかり。昨今の Web サイトがもつ機能として足りていないものがあります。たとえば&lt;/p&gt;
@@ -50,5 +50,5 @@
 &lt;p&gt;でも、そういった課題はつど手を入れていけばよいのです。&lt;strong&gt;さっさとスタートする方がよっぽど大事だから。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;というわけで、&lt;strong&gt;「写真」や「グラフィック」、「ブログ（なるべく技術よりの）」などの作品を掲載しつつ、サイト全体をコツコツと育てていきます。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;どうぞよろしくお願いします。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/001_200322-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/001_200322-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/001_200322-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/001_200322-2.jpg 3x"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/001/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/001/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/001/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/001/derivatives/crisp/3x/2.jpg 3x"/&gt;&lt;/p&gt;
 &lt;p&gt;※vue ファイルなどのデータは &lt;a href="https://github.com/nnamm/gridsome_nnamm" target="_blank"&gt;GitHub&lt;/a&gt; で公開していますので参考にどうぞ。&lt;/p&gt;</content><category term="Diary"/><category term="Gridsome"/><category term="tailwindcss"/></entry></feed>

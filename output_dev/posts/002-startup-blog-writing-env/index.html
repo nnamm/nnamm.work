@@ -13,7 +13,7 @@
 <meta content="PythonとAutomatorでブログ執筆ツールをつくりました" property="og:title"/>
 <meta content="article" property="og:type"/>
 <meta content="/posts/002-startup-blog-writing-env/" property="og:url"/>
-<meta content="https://nnamm.work/images/posts/002_200329-0.jpg" property="og:image"/>
+<meta content="https://nnamm.work/images/posts/002/0.jpg" property="og:image"/>
 <meta content="nnamm.work" property="og:site_name"/>
 <meta content="楽しみながら開発。macOSはカスタムできることが多くて便利。" property="og:description"/>
 <link href="/favicon.ico" rel="shortcut icon"/>
@@ -72,7 +72,7 @@
           </span>
 </div>
 </div>
-<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/derivatives/default/1x/002_200329-0.jpg" srcset="../../images/posts/derivatives/default/1x/002_200329-0.jpg 1x, ../../images/posts/derivatives/default/2x/002_200329-0.jpg 2x, ../../images/posts/derivatives/default/3x/002_200329-0.jpg 3x"/>
+<img alt="Eye catching image for this article" class="image-process-default w-full max-w-full md:max-w-4xl lg:max-w-5xl md:mx-auto md:rounded" loading="lazy" src="../../images/posts/002/derivatives/default/1x/0.jpg" srcset="../../images/posts/002/derivatives/default/1x/0.jpg 1x, ../../images/posts/002/derivatives/default/2x/0.jpg 2x, ../../images/posts/002/derivatives/default/3x/0.jpg 3x"/>
 </header>
 <div class="hidden xl:flex xl:justify-center xl:sticky xl:top-4">
 <div class="profile-box w-full max-w-screen-xl pointer-events-none">
@@ -184,22 +184,22 @@ type: <span class="nv">$type</span>
 <p>スクリプトは作れたけど、新しく記事を書くたびに python コマンドを叩くのは手間です。それにどうせなら Markdown ファイルを開いてすぐブログを書きはじめられたら素敵じゃないですか。</p>
 <p>そんなときは Automator にシェルコマンドを入力してもらいましょう。</p>
 <p>Automator を起動して「アプリケーション」を選択。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-1.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-1.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-1.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-1.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/002/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/002/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/002/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/002/derivatives/crisp/3x/1.jpg 3x"/></p>
 <p>Automator で Python を実行するには、シェルから実行してもらうようにしないといけません。以下の順番でつなげていきます。</p>
 <ol>
 <li>シェルスクリプトを実行</li>
 <li>指定された Finder 項目を取得</li>
 <li>Finder 項目を開く(お好きなアプリを選択)</li>
 </ol>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-2.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-2.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-2.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-2.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/002/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/002/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/002/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/002/derivatives/crisp/3x/2.jpg 3x"/></p>
 <p>シェル実行時に Markdown ファイルの絶対パスを print()で出力しています。それが「指定された Finder 項目を取得」につながって、次の「Finder 項目を開く」へとつながっていきます。</p>
 <p>さらに、どうせなら Automator で作ったアプリのアイコンも変えましょう。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-3.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-3.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-3.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-3.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/002/derivatives/crisp/1x/3.jpg" srcset="../../images/posts/002/derivatives/crisp/1x/3.jpg 1x, ../../images/posts/002/derivatives/crisp/2x/3.jpg 2x, ../../images/posts/002/derivatives/crisp/3x/3.jpg 3x"/></p>
 <p>まず、Automator で作たアプリの情報ウィンドウを表示させます。次に左上のアイコンを選択状態にしてから、あらかじめクリップボードにコピーしておいた画像を command+v してあげれば OK です。</p>
 <h2 id="2-gridsome-developlocalhost">2. gridsome develop を起動し、指定のブラウザで localhost に接続するショートカットキー</h2>
 <p>記事を書きながらプレビューできたら便利ですよね。今回はショートカットキーで起動するようにします。</p>
 <p>Automator を起動して「クイックアクション」を選択。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-4.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-4.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-4.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-4.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/002/derivatives/crisp/1x/4.jpg" srcset="../../images/posts/002/derivatives/crisp/1x/4.jpg 1x, ../../images/posts/002/derivatives/crisp/2x/4.jpg 2x, ../../images/posts/002/derivatives/crisp/3x/4.jpg 3x"/></p>
 <p>以下の順でつなげていきます。</p>
 <ol>
 <li>指定された Finder 項目を取得（後述のコマンドファイルを指定）</li>
@@ -207,7 +207,7 @@ type: <span class="nv">$type</span>
 <li>一時停止（ビルドにちょっと時間がかかるため一休み）</li>
 <li>シェルスクリプトを実行（ブラウザのフルパス + URL ）</li>
 </ol>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-5.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-5.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-5.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-5.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/002/derivatives/crisp/1x/5.jpg" srcset="../../images/posts/002/derivatives/crisp/1x/5.jpg 1x, ../../images/posts/002/derivatives/crisp/2x/5.jpg 2x, ../../images/posts/002/derivatives/crisp/3x/5.jpg 3x"/></p>
 <h3 id="_1">コマンドファイル</h3>
 <p>「シェルスクリプトを実行」から直接 gridsome develop をすると、ctrl+c で Gridsome のプロセスを停止できません。僕から見えない誰かがプロセスを握ってしまっているためだと思います。</p>
 <p>なので、以下のコマンドファイルを作り、Terminal を起動してから実行してあげる必要があります。</p>
@@ -222,7 +222,7 @@ gridsome develop
 </code></pre></div>
 <h3 id="_2">ショートカットキーの設定</h3>
 <p>クイックアクションは macOS のサービスとして扱われるため、システム環境設定から任意のショートカットキーを割り当ててあげましょう。</p>
-<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/derivatives/crisp/1x/002_200329-6.jpg" srcset="../../images/posts/derivatives/crisp/1x/002_200329-6.jpg 1x, ../../images/posts/derivatives/crisp/2x/002_200329-6.jpg 2x, ../../images/posts/derivatives/crisp/3x/002_200329-6.jpg 3x"/></p>
+<p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/002/derivatives/crisp/1x/6.jpg" srcset="../../images/posts/002/derivatives/crisp/1x/6.jpg 1x, ../../images/posts/002/derivatives/crisp/2x/6.jpg 2x, ../../images/posts/002/derivatives/crisp/3x/6.jpg 3x"/></p>
 <p>以上で完成です。</p>
 <h2 id="_3">おわりに</h2>
 <p>これで、アプリアイコンをダブルクリックするだけでブログが書けるようになりました。また、必要に応じてショートカットキーでプレビュー画面を起動するということもできました。</p>

@@ -5,7 +5,7 @@
 &lt;h2 id="_1"&gt;ことのはじめ&lt;/h2&gt;
 &lt;p&gt;以前、フロントエンドに &lt;a href="https://svelte.dev/" target="_blank"&gt;Svelte&lt;/a&gt;、バックエンドに &lt;a href="https://fastapi.tiangolo.com/" target="_blank"&gt;FastAPI&lt;/a&gt; を用いてパスワードを生成するアプリを作りました。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/013/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/013/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/013/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/013/derivatives/crisp/3x/1.jpg 3x"/&gt;&lt;/p&gt;
-&lt;p&gt;▶︎ &lt;a href="https://github.com/nnamm/PasswordGenerator"&gt;https://github.com/nnamm/PasswordGenerator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;▶︎ &lt;a href="https://github.com/nnamm/PasswordGenerator" target="_blank"&gt;https://github.com/nnamm/PasswordGenerator&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;動作イメージとしては下図の「1Password mini」で、スライドバーの動作に合わせてパスワードを生成します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/013/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/013/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/013/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/013/derivatives/crisp/3x/2.jpg 3x"/&gt;&lt;/p&gt;
 &lt;p&gt;もちろん、パスワードを生成するだけならフロントエンド／バックエンド構成にする必要はありません。JavaScript や Python だけでできるでしょうし。&lt;/p&gt;
