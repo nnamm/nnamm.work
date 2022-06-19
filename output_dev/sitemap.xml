@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2022-06-17T12:03:20-00:00</lastmod>
+<lastmod>2022-06-19T18:01:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -22,6 +22,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2021-05-29T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1.0</priority>
+</url>
+
+<url>
+<loc>/posts/013-port-forward-to-vm</loc>
+<lastmod>2022-06-19T17:07:17+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
 </url>
 
 <url>
@@ -138,7 +145,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/macos.html</loc>
-<lastmod>2021-05-30T00:00:00+09:19</lastmod>
+<lastmod>2022-06-19T17:07:17+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -153,6 +160,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/category/python.html</loc>
 <lastmod>2021-06-19T13:00:00+09:19</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/parallels.html</loc>
+<lastmod>2022-06-19T17:07:17+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -271,7 +285,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/hua-cun-gui-shi-takashi-hanamura.html</loc>
-<lastmod>2022-06-17T12:00:00+09:19</lastmod>
+<lastmod>2022-06-19T17:07:17+09:19</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
