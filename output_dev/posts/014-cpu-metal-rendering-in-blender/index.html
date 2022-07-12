@@ -119,16 +119,16 @@
 <li>macOS Monterey 12.4</li>
 <li>Blender 3.2.1</li>
 </ul>
-<p>GPU レンダリング（ Metal ）に対応しているマシンは、Apple silicon か AMD の GPU を搭載しているものになります。対応していれば Preferences に Metal が表示されるはずです。</p>
+<p>GPU レンダリング（ Metal ）に対応しているマシンは、Apple silicon か AMD 製 GPU を搭載しているものになります。対応していれば Preferences に Metal が表示されるはずです。</p>
 <p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/014/derivatives/crisp/1x/1.jpg" srcset="../../images/posts/014/derivatives/crisp/1x/1.jpg 1x, ../../images/posts/014/derivatives/crisp/2x/1.jpg 2x, ../../images/posts/014/derivatives/crisp/3x/1.jpg 3x"/></p>
 <h3 id="metal">（注） Metal の初回有効時は待たされます</h3>
 <p>はじめて Metal を有効にすると、画面左上に「Loading render kernels」と表示されてしばらく待たされます。Blender がハングしてるわけではないので、5 分程度待つといいですよ。</p>
 <h2 id="_2">デモファイルのパフォーマンス検証</h2>
 <p><a href="https://www.blender.org/download/demo-files/" target="_blank">Demo Files — blender.org</a> から Classroom をチョイス。</p>
 <blockquote>
-<p>以降「CPU only」と表記したものは上図の Cycles Render Devices を None、「GPU only」は Vega 20 のみを ON、「CPU + GPU」は 2 箇所とも ON にしたことを指します。</p>
+<p>以降「CPU」と表記したものは上図の Cycles Render Devices を None、「GPU」は Vega 20 のみを ON、「CPU + GPU」は 2 箇所とも ON にしたことを指します。</p>
 </blockquote>
-<h3 id="1cpu-onlytime-152824">① CPU only ／ Time 15:28.24</h3>
+<h3 id="1cputime-152824">① CPU ／ Time 15:28.24</h3>
 <p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/014/derivatives/crisp/1x/2.jpg" srcset="../../images/posts/014/derivatives/crisp/1x/2.jpg 1x, ../../images/posts/014/derivatives/crisp/2x/2.jpg 2x, ../../images/posts/014/derivatives/crisp/3x/2.jpg 3x"/></p>
 <p>CPU は全コアが常に 100%でした。</p>
 <p><img alt="" class="image-process-crisp" loading="lazy" src="../../images/posts/014/derivatives/crisp/1x/3.jpg" srcset="../../images/posts/014/derivatives/crisp/1x/3.jpg 1x, ../../images/posts/014/derivatives/crisp/2x/3.jpg 2x, ../../images/posts/014/derivatives/crisp/3x/3.jpg 3x"/></p>
@@ -145,30 +145,26 @@
 <tr>
 <th>Pattern</th>
 <th>Time (mm:ss.ms)</th>
-<th>Mem</th>
-<th>Peak</th>
-<th>faster than CPU only</th>
+<th>Peak Mem</th>
+<th>faster than CPU</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CPU only</td>
+<td>CPU</td>
 <td>1:44.66</td>
-<td>104.66M</td>
 <td>104.66M</td>
 <td>-</td>
 </tr>
 <tr>
-<td>GPU only</td>
+<td>GPU</td>
 <td>0:57.07</td>
-<td>768.18M</td>
 <td>768.18M</td>
 <td>x1.8</td>
 </tr>
 <tr>
 <td>CPU + GPU</td>
 <td>0:44.35</td>
-<td>18.57M</td>
 <td>100.96M</td>
 <td>x2.4</td>
 </tr>
@@ -180,30 +176,26 @@
 <tr>
 <th>Pattern</th>
 <th>Time (mm:ss.ms)</th>
-<th>Mem</th>
-<th>Peak</th>
-<th>faster than CPU only</th>
+<th>Peak Mem</th>
+<th>faster than CPU</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CPU only</td>
+<td>CPU</td>
 <td>16:16.41</td>
-<td>119.38M</td>
 <td>119.38M</td>
 <td>-</td>
 </tr>
 <tr>
-<td>GPU only</td>
+<td>GPU</td>
 <td>9:18.00</td>
-<td>791.34M</td>
 <td>791.34M</td>
 <td>x1.7</td>
 </tr>
 <tr>
 <td>CPU + GPU</td>
 <td>7:18.66</td>
-<td>0.71M</td>
 <td>119.37M</td>
 <td>x2.2</td>
 </tr>
@@ -215,30 +207,26 @@
 <tr>
 <th>Pattern</th>
 <th>Time (mm:ss.ms)</th>
-<th>Mem</th>
-<th>Peak</th>
-<th>faster than CPU only</th>
+<th>Peak Mem</th>
+<th>faster than CPU</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CPU only</td>
+<td>CPU</td>
 <td>1:24.26</td>
-<td>73.93M</td>
 <td>73.93M</td>
 <td>-</td>
 </tr>
 <tr>
-<td>GPU only</td>
+<td>GPU</td>
 <td>0:45.69</td>
-<td>737.04M</td>
 <td>737.04M</td>
 <td>x1.8</td>
 </tr>
 <tr>
 <td>CPU + GPU</td>
 <td>0:32.21</td>
-<td>10.78M</td>
 <td>72.57M</td>
 <td>x2.6</td>
 </tr>
@@ -253,7 +241,7 @@
 <p>でも、Blender で Metal が有効に機能するようになって、macOS でも CG 制作はしやすくなると感じました。用途次第では Mac でも充分楽しめます。</p>
 <p>僕は Metal でレンダリングされるようになって嬉しいです。開発者のみなさんに感謝！</p>
 <blockquote>
-<p>Intel 製の Macbook ではレンダリング時のファンノイズがめっちゃ気になります。Apple Silicon マシンが欲しくなりましたね。<br/>Python や Golang で開発する分には困っていませんが、Lightroom Classic がもっさり動くようになってきたのはちょっと辛い。そろそろリプレースに本腰を入れるときかな。</p>
+<p>Intel 製の Macbook ではレンダリング時のファンノイズがめっちゃ気になります。Apple Silicon マシンが欲しくなりましたね。<br/>開発する分には困っていませんが、Lightroom Classic がもっさり動くようになってきたのはちょっと辛い。そろそろリプレースに本腰を入れるときかな。</p>
 </blockquote>
 </div>
 <div class="w-full md:max-w-3xl md:mx-auto mt-12 mb-20 px-4 md:px-10">
