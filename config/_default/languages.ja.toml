@@ -1,0 +1,28 @@
+languageCode = "ja"
+languageName = "Japanese"
+displayName = "JA"
+isoCode = "ja"
+weight = 1
+rtl = false
+
+title = "nnamm.work"
+logo = "img/logo.png"
+description = "My awesome website"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+dateformat = "2006/01/02"
+
+[author]
+  name = "花村貴史｜Takashi Hanamura"
+  image = "img/profile.jpg"
+  headline = "hl-Software enginner & Photographer"
+  bio = "bio-Software enginner & Photographer"
+  links = [
+    { link = "https://nnamm.com" },
+    { github = "https://github.com/nnamm" },
+    { tumblr = "https://thanamura.tumblr.com" },
+    { tumblr = "https://thanamura-portrait.tumblr.com" },
+    { twitter = "https://twitter.com/nnammg" },
+    { facebook = "https://www.facebook.com/t.hanamura.photography" },
+  ]
+
