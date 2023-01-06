@@ -7,8 +7,7 @@ rtl = false
 
 title = "nnamm.work"
 logo = "img/logo.png"
-description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
+description = "空気感フォトグラファーのポートフォリオサイトです。写真系、技術系のブログと作品リンクを掲載しています。"
 
 dateformat = "2006/01/02"
 

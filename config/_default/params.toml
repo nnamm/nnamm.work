@@ -77,7 +77,7 @@ defaultBackgroundImage = "img/background1.jpg" # used as default for background 
   # showLikes = true
   showTableOfContents = true
   showCards = true
-  groupByYear = true
+  groupByYear = false
   cardView = false
   cardViewScreenWidth = false
 

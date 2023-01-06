@@ -6,6 +6,7 @@ categories: ["Creative"]
 tags: ["macOS", "Python"]
 date: 2020-03-29
 lastmod: 2021-06-19
+slug: 001-blog-writing-tool
 ---
 
 静的サイトジェネレーター（SSG）で作ったサイトの記事は Markdown ファイルで管理します。
