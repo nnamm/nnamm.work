@@ -41,6 +41,6 @@ sharingLinks: false
 
 SSG はこれまで [Gridsome](https://gridsome.org/)、[Pelican](https://blog.getpelican.com/) と使ってきてました。Pelican では [Tailwind CSS](https://tailwindcss.com/) を利用したテーマを自作してウキウキしていたのですが、サイトのビルドに時間がかかるのがネック。
 
-そこで速度重視の [Hugo](https://gohugo.io/) に移行することに。テーマは [Blowfish](https://github.com/nunocoracao/blowfish) をカスタムしています。
+そこで速度重視の [Hugo](https://gohugo.io/) に移行することに。テーマは [Blowfish](https://github.com/nunocoracao/blowfish) をカスタムしています。実際にビルドは速いです。
 
 SSG は SPA や WordPress とは違い、静的ファイルが生成されるだけだから非常にシンプルですね。
