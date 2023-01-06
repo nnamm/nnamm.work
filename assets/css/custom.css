@@ -31,7 +31,7 @@ html {
 }
 
 time {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 h1 {
@@ -46,12 +46,20 @@ h1 {
 h2 {
   border-color: #f9a8d4;
   padding-left: 0.75rem;
-  border-left-width: 2px;
+  border-left-width: 0.2rem;
 }
 
 h3 {
   border-color: #f9a8d4;
-  border-bottom-width: 1px;
+  border-bottom-width: 0.1rem;
   border-style: solid;
   margin-bottom: 1.5rem !important;
+}
+
+blockquote {
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+  line-height: 1.75rem;
+  border-left-width: 0.3rem !important;
+  margin: 1.9rem 0 !important;
 }
