@@ -1,7 +1,7 @@
 :root {
   --base-text: 0.95rem;
   --base-text-blog: 0.95rem;
-  --base-spacing: 0.025em;
+  --base-spacing: 0.02em;
 }
 html {
   font-family: "Avenir-Roman", "Arial", "Helvetica Neue", "Hiragino Sans",
@@ -19,7 +19,7 @@ html {
 }
 
 .max-w-prose {
-  max-width: 80ch;
+  max-width: 76ch;
 }
 
 /* .toc ul, */
