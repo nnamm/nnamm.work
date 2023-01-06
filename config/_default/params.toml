@@ -1,0 +1,133 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/configuration/#theme-parameters
+
+colorScheme = "congo"
+defaultAppearance = "light" # valid options: light or dark
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+
+# mainSections = ["section1", "section2"]
+# robots = "all"
+
+disableImageOptimization = false
+defaultBackgroundImage = "img/background1.jpg" # used as default for background images 
+
+[header]
+  layout = "fixed" # valid options: basic, fixed
+
+[footer]
+  showMenu = true
+  showCopyright = false
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "background" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "img/background4.jpg" # used in: hero, and card
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "/blog"
+  cardView = false
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true # only used when layout equals background
+
+[article]
+  showDate = true
+  # showViews = true
+  # showLikes = true
+  showDateUpdated = true
+  showAuthor = true
+  showHero = true
+  heroStyle = "big" # valid options: basic, big, background
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  # editURL = "https://github.com/username/repo/"
+  editAppendPath = true
+  seriesOpened = false
+  showHeadingAnchors = false
+  showPagination = true
+  invertPagination = false
+  showReadingTime = false 
+  showTableOfContents = true
+  showTaxonomies = true 
+  showAuthorsBadges = false 
+  showWordCount = false 
+  showSummary = true
+  sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook"]
+
+[list]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = false
+  showBreadcrumbs = true
+  showSummary = true
+  # showViews = true
+  # showLikes = true
+  showTableOfContents = true
+  showCards = true
+  groupByYear = true
+  cardView = false
+  cardViewScreenWidth = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = true
+  #showViews = false
+  #showLikes = false
+  #showTableOfContents = true
+  #cardView = false 
+
+[term]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = true
+  #showViews = false
+  #showLikes = false
+  #showTableOfContents = true
+  #groupByYear = false
+  #cardViewScreenWidth = false
+  #cardView = false
+
+[firebase]
+  # apiKey = "XXXXXX"
+  # authDomain = "XXXXXX"
+  # projectId = "XXXXXX"
+  # storageBucket = "XXXXXX"
+  # messagingSenderId = "XXXXXX"
+  # appId = "XXXXXX"
+  # measurementId = "XXXXXX"
+
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[buymeacoffee]
+  # identifier = ""
+  # globalWidget = true
+  # globalWidgetMessage = "Hello"
+  # globalWidgetColor = "#FFDD00"
+  # globalWidgetPosition = "Right"
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
+

@@ -1,0 +1,65 @@
+:root {
+  --base-text: 0.95rem;
+  --base-text-blog: 1rem;
+  --base-spacing: 0.02em;
+}
+html {
+  font-family: "Avenir-Roman", "Helvetica Neue", "Arial", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "BIZ UDPGothic", "Meiryo", sans-serif;
+  letter-spacing: var(--base-spacing);
+  word-break: break-all;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-base {
+  font-size: var(--base-text);
+  font-weight: 400;
+}
+
+.prose {
+  font-size: var(--base-text-blog);
+  line-height: 1.9rem;
+}
+
+.max-w-prose {
+  max-width: 76ch;
+}
+
+.copy-button {
+  font-size: 0.7rem;
+}
+
+time {
+  font-size: 0.85rem;
+}
+
+h1 {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  letter-spacing: var(--base-spacing);
+  word-break: break-all;
+  margin-top: 3rem !important;
+  margin-bottom: 1rem !important;
+}
+
+h2 {
+  border-color: #f9a8d4;
+  padding-left: 0.75rem;
+  border-left-width: 0.2rem;
+}
+
+h3 {
+  border-color: #f9a8d4;
+  border-bottom-width: 0.1rem;
+  border-style: solid;
+  margin-bottom: 1.5rem !important;
+}
+
+blockquote {
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+  line-height: 1.75rem;
+  border-left-width: 0.3rem !important;
+  margin: 1.9rem 0 !important;
+}
