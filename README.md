@@ -1,2 +1,12 @@
 # nnamm.work
-[My website](https://nnamm.work), powered by Pelican.
+
+[My website](https://nnamm.work), powered by Hugo. (WIP)
+
+# TODO
+
+- Migrate existing artcles
+	- Organizing articles
+	- Includes design adjustments
+- Site settings such as ROBOT.txt
+- Shell creation for public use
+- Replace site data on the server
