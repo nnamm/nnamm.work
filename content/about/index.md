@@ -7,6 +7,7 @@ summary: 自己紹介とサイトの説明
 showAuthor: false
 showDate: false
 showDateUpdated: false
+showPagination: false
 sharingLinks: false
 ---
 

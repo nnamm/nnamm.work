@@ -7,6 +7,7 @@ summary: nnamm.workのプライバシーポリシー
 showAuthor: false
 showDate: false
 showDateUpdated: false
+showPagination: false
 sharingLinks: false
 ---
 
