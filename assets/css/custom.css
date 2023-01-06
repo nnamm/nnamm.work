@@ -1,31 +1,30 @@
 :root {
   --base-text: 0.95rem;
-  --base-text-blog: 0.95rem;
+  --base-text-blog: 1rem;
   --base-spacing: 0.02em;
 }
 html {
-  font-family: "Avenir-Roman", "Arial", "Helvetica Neue", "Hiragino Sans",
+  font-family: "Avenir-Roman", "Helvetica Neue", "Arial", "Hiragino Sans",
     "Hiragino Kaku Gothic ProN", "BIZ UDPGothic", "Meiryo", sans-serif;
   letter-spacing: var(--base-spacing);
   word-break: break-all;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .text-base {
   font-size: var(--base-text);
+  font-weight: 400;
 }
 
 .prose {
   font-size: var(--base-text-blog);
+  line-height: 1.9rem;
 }
 
 .max-w-prose {
   max-width: 76ch;
 }
-
-/* .toc ul, */
-/* .toc li { */
-/*   list-style-type: circle; */
-/* } */
 
 .copy-button {
   font-size: 0.7rem;
