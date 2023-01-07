@@ -63,7 +63,7 @@ defaultBackgroundImage = "img/background1.jpg" # used as default for background 
   showTaxonomies = true 
   showAuthorsBadges = false 
   showWordCount = false 
-  showSummary = true
+  showSummary = false
   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook"]
 
 [list]
@@ -72,7 +72,7 @@ defaultBackgroundImage = "img/background1.jpg" # used as default for background 
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false
   showBreadcrumbs = true
-  showSummary = true
+  showSummary = false
   # showViews = true
   # showLikes = true
   showTableOfContents = true
