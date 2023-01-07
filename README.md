@@ -7,6 +7,6 @@
 - Migrate existing artcles
 	- Organizing articles
 	- Includes design adjustments
-- Site settings such as ROBOT.txt
+- ~~Site settings such as ROBOT.txt~~
 - Shell creation for public use
 - Replace site data on the server

@@ -37,6 +37,19 @@ html {
   margin-bottom: 0.2rem;
 }
 
+.prose table {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-width: 0.05rem;
+}
+
+.prose th,
+.prose td {
+  line-height: 1.25rem;
+  padding: 0.25rem 0.5rem;
+  border-width: 0.05rem;
+}
+
 .max-w-prose {
   max-width: 76ch;
 }
