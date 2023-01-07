@@ -1,11 +1,11 @@
 ---
-title: PythonとAutomator でブログ執筆ツールをつくりました
-description: 楽しみながら開発。macOS はカスタムできることが多くて便利。
-summary: PythonとAutomator の連携方法
+title: Python と Automator でブログ執筆ツールをつくりました
+description: macOS はカスタムできることが多くて便利
+summary: Python と Automator の連携方法
 categories: ["Creative"]
 tags: ["macOS", "Python"]
 date: 2020-03-29
-lastmod: 2021-06-19
+lastmod: 2023-01-06
 slug: 001-blog-writing-tool
 ---
 
