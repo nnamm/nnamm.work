@@ -6,7 +6,7 @@
     <description>Recent content on nnamm.work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nnamm.work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nnamm.work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Privacy Policy</title>
       <link>https://nnamm.work/privacy-policy/</link>
@@ -15,6 +15,16 @@
       <guid>https://nnamm.work/privacy-policy/</guid>
       <description>nnamm.workのプライバシーポリシー</description>
       
+    </item>
+    
+    <item>
+      <title>Python｜きれいなコードを書くための PyCharm 設定メモ</title>
+      <link>https://nnamm.work/blog/004-write-cleancode-with-pycharm/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nnamm.work/blog/004-write-cleancode-with-pycharm/</guid>
+      <description>Black/flake8/isort/mypy/pylint の設定例方法</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://nnamm.work/blog/004-write-cleancode-with-pycharm/featured.jpg" />
     </item>
     
     <item>

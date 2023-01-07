@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PyCharm on nnamm.work</title>
+    <link>https://nnamm.work/tags/pycharm/</link>
+    <description>Recent content in PyCharm on nnamm.work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nnamm.work/tags/pycharm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python｜きれいなコードを書くための PyCharm 設定メモ</title>
+      <link>https://nnamm.work/blog/004-write-cleancode-with-pycharm/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nnamm.work/blog/004-write-cleancode-with-pycharm/</guid>
+      <description>Black/flake8/isort/mypy/pylint の設定例方法</description>
+    </item>
+    
+  </channel>
+</rss>

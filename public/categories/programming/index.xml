@@ -6,7 +6,16 @@
     <description>Recent content in Programming on nnamm.work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nnamm.work/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nnamm.work/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python｜きれいなコードを書くための PyCharm 設定メモ</title>
+      <link>https://nnamm.work/blog/004-write-cleancode-with-pycharm/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nnamm.work/blog/004-write-cleancode-with-pycharm/</guid>
+      <description>Black/flake8/isort/mypy/pylint の設定例方法</description>
+    </item>
+    
     <item>
       <title>Python｜はじめての unittest、使い方を整理してみる</title>
       <link>https://nnamm.work/blog/003-python-first-unittest/</link>
