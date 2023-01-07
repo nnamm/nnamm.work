@@ -42,9 +42,9 @@ nav:
   skip_to_main: "メインコンテンツへスキップ"
 
 search:
-  open_button_title: "検索 (/)"
-  close_button_title: "閉じる (Esc)"
-  input_placeholder: "検索"
+  open_button_title: "Search (/)"
+  close_button_title: "Close (Esc)"
+  input_placeholder: "Search"
 
 sharing:
   email: " Eメールを送る"
