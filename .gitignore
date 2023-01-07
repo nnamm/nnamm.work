@@ -3,9 +3,6 @@
 .vim
 .hugo_build.lock
 
-to_srv_root_dir/.htaccess
-./themes/blowfish/
-
 publish.sh
 *.psd
 memo.txt
