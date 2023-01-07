@@ -23,7 +23,7 @@ defaultBackgroundImage = "img/background1.jpg" # used as default for background 
 
 [footer]
   showMenu = true
-  showCopyright = false
+  showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
