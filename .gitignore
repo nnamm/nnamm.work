@@ -3,7 +3,7 @@
 .vim
 .hugo_build.lock
 
-./public/
+public
 
 publish.sh
 *.psd
