@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>macOS on nnamm.work</title>
+    <link>https://nnamm.work/tags/macos/</link>
+    <description>Recent content in macOS on nnamm.work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nnamm.work/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python｜Pyftpsync を使ってローカルとリモートを同期する</title>
+      <link>https://nnamm.work/blog/002-python-ftp-sync/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nnamm.work/blog/002-python-ftp-sync/</guid>
+      <description>Pyftpsync の使用方法</description>
+    </item>
+    
+    <item>
+      <title>Python と Automator でブログ執筆ツールをつくりました</title>
+      <link>https://nnamm.work/blog/001-blog-writing-tool/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nnamm.work/blog/001-blog-writing-tool/</guid>
+      <description>Python と Automator の連携方法</description>
+    </item>
+    
+  </channel>
+</rss>

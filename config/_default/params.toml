@@ -13,7 +13,7 @@ enableSearch = true
 enableCodeCopy = true
 
 # mainSections = ["section1", "section2"]
-# robots = "all"
+robots = "all"
 
 disableImageOptimization = false
 defaultBackgroundImage = "img/background1.jpg" # used as default for background images 

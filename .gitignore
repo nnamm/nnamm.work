@@ -3,6 +3,8 @@
 .vim
 .hugo_build.lock
 
+./public/
+
 publish.sh
 *.psd
 memo.txt
