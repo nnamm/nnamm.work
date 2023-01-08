@@ -8,6 +8,6 @@
   - ~~Organizing articles~~
   - ~~Includes design adjustments~~
 - ~~Site settings such as ROBOT.txt~~
-- URL redirect configuration
+- ~~URL redirect configuration~~
 - Shell creation for public use
 - Replace site data on the server
