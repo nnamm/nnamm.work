@@ -6,7 +6,7 @@ categories: ["Creative"]
 tags: ["macOS", "Parallels"]
 date: 2022-06-19 00:00:00
 lastmod: 2023-01-08 00:00:00
-slug: 009-port-forward-to-vm
+slug: 011-port-forward-to-vm
 ---
 
 Parallels を使ってクライアント・サーバー構成で開発している方はポートフォワードの設定が必要になるかもしれません。

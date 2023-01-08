@@ -6,7 +6,7 @@ categories: ["Programming"]
 tags: ["JetBrains", "Goland", "PyCharm"]
 date: 2022-06-17 00:00:00
 lastmod: 2023-01-08 00:00:00
-slug: 009-how-to-start-ide-with-command
+slug: 010-how-to-start-ide-with-command
 ---
 
 ## "Goland ."と打って起動してはる？
