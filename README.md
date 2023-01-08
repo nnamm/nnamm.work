@@ -1,13 +1,5 @@
 # nnamm.work
 
-[My website](https://nnamm.work), powered by Hugo. (WIP)
+[My website](https://nnamm.work), powered by [Hugo](https://github.com/gohugoio/hugo) & [Blowfish](https://github.com/nunocoracao/blowfish)
 
-# TODO
-
-- ~~Migrate existing artcles~~
-  - ~~Organizing articles~~
-  - ~~Includes design adjustments~~
-- ~~Site settings such as ROBOT.txt~~
-- ~~URL redirect configuration~~
-- Shell creation for public use
-- Replace site data on the server
+I use the theme with a few customizations. To the author of Blowfish, thank you for developing an easy-to-use theme.
