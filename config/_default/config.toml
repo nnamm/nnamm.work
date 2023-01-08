@@ -29,3 +29,6 @@ googleAnalytics = "G-PGR5LXQDM6"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[imaging]
+  quality = 90
+
