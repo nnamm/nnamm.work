@@ -13,8 +13,6 @@ sharingLinks: false
 
 ### Me
 
-![](./about-0.jpg)
-
 花村貴史 / Takashi Hanamura です。
 
 - ソフトウェアエンジニア
@@ -31,16 +29,22 @@ sharingLinks: false
 
 ### Site
 
+#### nnamm.work
+
 - nnamm.work の work は作品のこと
 - 技術的なネタや日々のことを書きためる場所
 - 作品を紹介する Hub となる場所
 
 を静的サイトジェネレーターを使って運営していきます。
 
-### Static Site Generators
+#### Changes in Static Site Generators
 
-SSG はこれまで [Gridsome](https://gridsome.org/)、[Pelican](https://blog.getpelican.com/) と使ってきてました。Pelican では [Tailwind CSS](https://tailwindcss.com/) を利用したテーマを自作してウキウキしていたのですが、サイトのビルドに時間がかかるのがネック。
+- [Gridsome](https://gridsome.org/)
+- [Pelican](https://blog.getpelican.com/)
+- [Hugo](https://gohugo.io/)  ← Now
 
-そこで速度重視の [Hugo](https://gohugo.io/) に移行することに。テーマは [Blowfish](https://github.com/nunocoracao/blowfish) をカスタムしています。実際にビルドは速いです。
+SGG デビューは Gridsome でした。次にテーマが作りやすそうな Pelican に移行。[Tailwind CSS](https://tailwindcss.com/) を利用した自作テーマを使ってウキウキしていましたが、ビルドに時間がかかるのがネック。
+
+そこで速度重視の Hugo に移行することに。テーマは [Blowfish](https://github.com/nunocoracao/blowfish) をカスタムしています。実際にビルドは速いです。
 
 SSG は SPA や WordPress とは違い、静的ファイルが生成されるだけだから非常にシンプルですね。
