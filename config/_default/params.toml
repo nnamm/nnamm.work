@@ -63,7 +63,7 @@ defaultBackgroundImage = "img/background1.jpg" # used as default for background 
   showTaxonomies = true 
   showAuthorsBadges = false 
   showWordCount = false 
-  showSummary = false
+  showComments = false
   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook"]
 
 [list]
@@ -71,15 +71,16 @@ defaultBackgroundImage = "img/background1.jpg" # used as default for background 
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false
-  showBreadcrumbs = true
+  showBreadcrumbs = false
+  showTableOfContents = true
   showSummary = false
   # showViews = true
   # showLikes = true
-  showTableOfContents = true
   showCards = true
   groupByYear = false
   cardView = false
   cardViewScreenWidth = false
+  constrainItemsWidth = false
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
@@ -89,21 +90,21 @@ defaultBackgroundImage = "img/background1.jpg" # used as default for background 
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
-  #showViews = false
-  #showLikes = false
-  #showTableOfContents = true
-  #cardView = false 
+  # showViews = false
+  # showLikes = false
+  # showTableOfContents = true
+  # cardView = false 
 
 [term]
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
-  #showViews = false
-  #showLikes = false
-  #showTableOfContents = true
-  #groupByYear = false
-  #cardViewScreenWidth = false
-  #cardView = false
+  # showViews = false
+  # showLikes = false
+  # showTableOfContents = true
+  # groupByYear = false
+  # cardView = false
+  # cardViewScreenWidth = false
 
 [firebase]
   # apiKey = "XXXXXX"
