@@ -7,11 +7,14 @@ summary: 自己紹介とサイトの説明
 showAuthor: false
 showDate: false
 showDateUpdated: false
+showHero: false
 showPagination: false
 sharingLinks: false
 ---
 
-### Me
+## Me
+
+![](./featured.jpg)
 
 花村貴史 / Takashi Hanamura です。
 
@@ -27,9 +30,9 @@ sharingLinks: false
 
 詳しいプロフィールは僕のもうひとつのサイト、[PROFILE | Takashi Q. Hanamura Photography](https://nnamm.com/profile) に詳しく書いています。
 
-### Site
+## Site
 
-#### nnamm.work
+### nnamm.work
 
 - nnamm.work の work は作品のこと
 - 技術的なネタや日々のことを書きためる場所
@@ -37,11 +40,11 @@ sharingLinks: false
 
 を静的サイトジェネレーターを使って運営していきます。
 
-#### Changes in Static Site Generators
+### Changes in Static Site Generators
 
 - [Gridsome](https://gridsome.org/)
 - [Pelican](https://blog.getpelican.com/)
-- [Hugo](https://gohugo.io/)  ← Now
+- [Hugo](https://gohugo.io/) ← Now
 
 SGG デビューは Gridsome でした。次にテーマが作りやすそうな Pelican に移行。[Tailwind CSS](https://tailwindcss.com/) を利用した自作テーマを使ってウキウキしていましたが、ビルドに時間がかかるのがネック。
 

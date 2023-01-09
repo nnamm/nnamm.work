@@ -14,7 +14,7 @@ dateformat = "2006/01/02"
 [author]
   name = "花村貴史｜Takashi Hanamura"
   image = "img/profile.jpg"
-  headline = "A place to publish my thoughts & works"
+  headline = "A place to publish my own thoughs and works"
   bio = "Software enginner & Photographer"
   links = [
     { link = "https://nnamm.com" },
