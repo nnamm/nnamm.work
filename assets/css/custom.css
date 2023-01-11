@@ -40,14 +40,18 @@ html {
 .prose table {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  border-width: 0.05rem;
+  border-collapse: collapse;
 }
 
-.prose th,
-.prose td {
+.prose table th,
+.prose table td {
   line-height: 1.25rem;
   padding: 0.25rem 0.5rem;
-  border-width: 0.05rem;
+  border-left: dotted 1px;
+}
+.prose table th:first-child,
+.prose table td:first-child {
+  border-left: none;
 }
 
 .max-w-prose {
