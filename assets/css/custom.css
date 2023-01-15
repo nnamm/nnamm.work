@@ -8,7 +8,7 @@ html {
     "Hiragino Kaku Gothic ProN", "BIZ UDPGothic", "Meiryo", sans-serif;
   letter-spacing: var(--base-spacing);
   /* font-weight: 300; */
-  word-break: break-all;
+  word-break: break-word;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
