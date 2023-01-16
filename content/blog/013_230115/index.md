@@ -15,7 +15,7 @@ slug: 013-upgrade-to-all-products-pack-great-value
 
 コストと性能から Core i5-13600KF + 3060Ti の構成にして、開発及び、その学習と Blender がメインの PC です。
 
-長年使っている Macbook Pro2018 モデルと比べると、CPU/GPU 性能は素晴らしく良いですね。一方で全体的な UI の出来栄え、フォントの美しさ、日本語入力性能は断然 macOS に分配が上がります。
+長年使っている Macbook Pro2018 モデルと比べると、CPU/GPU 性能は素晴らしく良いですね。一方で全体的な UI の出来栄え、フォントの美しさ、日本語入力性能は断然 macOS に軍配が上がります。
 
 でも僕はどーしても NVIDIA の GPU を使ってみたかったんです。
 
