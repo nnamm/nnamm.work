@@ -15,7 +15,7 @@ slug: 013-upgrade-to-all-products-pack-great-value
 
 コストと性能から Core i5-13600KF + 3060Ti の構成にして、開発及び、その学習と Blender がメインの PC です。
 
-長年使っている Macbook Pro2018 モデルと比べると、CPU/GPU 性能は素晴らしく良いですね。一方で全体的な UI の出来栄え、フォントの美しさ、日本語入力性能は断然 macOS に軍配が上がります。
+長年使っている Macbook Pro2018 モデルと比べると、CPU/GPU 性能は素晴らしく良いですね。一方、全体的な UI の出来栄えやフォントの美しさ、日本語入力性能（ライブ変換）は断然 macOS に軍配が上がります。
 
 でも僕はどーしても NVIDIA の GPU を使ってみたかったんです。
 
@@ -60,9 +60,7 @@ slug: 013-upgrade-to-all-products-pack-great-value
 
 ### 2. 管理するライセンスが 1 つで済む
 
-ライセンスなんて 1 アプリにつき 1 年に 1 回入力するものですが、3 つあるとちょっと手間。
-
-それが All Products Pack なら 1 つで済むのでありがたいです。
+ライセンスなんて 1 アプリにつき 1 年に 1 回入力するものですが、3 つあるとちょっと手間。それが All Products Pack なら 1 つで済むのでありがたいです。
 
 ### 3. あとから IDE を増やせる安心感
 
@@ -87,7 +85,7 @@ IntelliJ IDEA Ultimate にプラグインを導入することで複数言語に
 - PyCharm でフロントエンド（Python 用 IDE だけど React + TypeScript）
 - GoLand でバックエンド
 
-cmd+tab でサクサク切り替えられるし、円滑に開発できます。
+cmd + tab でサクサク切り替えられるし、円滑に開発できます。
 
 ![](./2.jpg)
 
@@ -108,9 +106,9 @@ All Products Pack は単体 IDE からアップグレードできます。僕は
 - GoLand が「2023 年 7 月 30 日まで」契約期間がありますので、本日からその期日までの分を All Products Pack にした場合で日割り計算し、無償期間として提供されます。
 - それ以降は、今までの契約期間は継続されますので "All Products Pack 継続 3 年目以降"の価格で計算されます。
 
-サムライズムさんはより良い方針の見積もりを立ててくれます。僕は ¥18,000 程度でアップグレードできました。来年からは ¥22,660 です。
+**要は 1 つでも 3 年以上使っていれば “All Products Pack 継続 3 年目以降" として扱ってくれるということです。**
 
-> 要は、1 つでも 3 年以上使っていれば “All Products Pack 継続 3 年目以降" として扱ってくれるということです。
+より良い方針の見積もりを立ててくれた結果、¥18,000 程度でアップグレードできました。来年からは ¥22,660 です。
 
 ![](./3.jpg)
 
@@ -131,7 +129,7 @@ CLion を買い足さなくて良かったです（笑）
 
 ![](./4.jpg)
 
-正直、Golang や Python であれば neovim+LSP で事足りるとは思いますが、IDE は便利なので使い分けていきます。
+正直、Golang や Python であれば neovim + LSP で事足りるとは思いますが、IDE は便利なので使い分けていきます。
 
 ## 侍割（紹介プログラム ）
 
@@ -146,5 +144,5 @@ https://secure.samuraism.com/referral/33D464315EB3916505CA8B3DF9748418
 <br>
 
 ※掲載した写真は清水寺を SIGMA fp + 45mmF2.8 DGDN で撮影  
-※[JetBrains](https://www.jetbrains.com/)のロゴについては以下のとおり<br>
+※[JetBrains](https://www.jetbrains.com/) のロゴについては以下のとおり<br>
 Copyright © 2000-2023 JetBrains s.r.o. JetBrains and the JetBrains logo are registered trademarks of JetBrains s.r.o.
