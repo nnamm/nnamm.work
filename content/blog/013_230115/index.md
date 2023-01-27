@@ -5,7 +5,7 @@ summary: All Products Pack へのアップグレード方法など
 categories: ["Programming"]
 tags: ["JetBrains"]
 date: 2023-01-15 00:00:00
-lastmod: 2023-01-16 00:00:00
+lastmod: 2023-01-27 00:00:00
 slug: 013-upgrade-to-all-products-pack-great-value
 ---
 
@@ -131,13 +131,26 @@ CLion を買い足さなくて良かったです（笑）
 
 正直、Golang や Python であれば neovim + LSP で事足りるとは思いますが、IDE は便利なので使い分けていきます。
 
-## 侍割（紹介プログラム ）
+## 補足：ライセンスの自動更新
+
+![](./5.png)
+
+All Products Pack にアップグレードしたときはライセンスの自動更新にご注意ください。僕の場合、
+
+- Goland → All Products Pack へアップグレード
+- PyCharm → 単体 IDE として契約中
+
+という状態でしたので、PyCharm の自動更新を停止しました。
+
+JetBrains かサムライズムさんからリマインドメールが送られてくるので、そのときに対処すれば OK です。
+
+## 補足：侍割（紹介プログラム）
 
 サムライズムさんで購入する際、紹介プログラムを介すと 1 ライセンス 200〜1000 円割引で購入できます。
 
 ▶︎ [紹介プログラム | 株式会社サムライズム](https://samuraism.com/referral-program)
 
-こちらが僕の紹介コードになります。良かったら使ってください。
+こちら（↓）が僕の紹介コードになります。この URL から購入すると割り引かれます。良かったら使ってください。
 
 https://secure.samuraism.com/referral/33D464315EB3916505CA8B3DF9748418
 
