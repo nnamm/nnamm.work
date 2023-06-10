@@ -1,15 +1,17 @@
-languageCode = "ja"
-languageName = "Japanese"
-displayName = "JA"
-isoCode = "ja"
-weight = 1
-rtl = false
-
 title = "nnamm.work"
-logo = "img/logo.png"
-description = "空気感フォトグラファーのポートフォリオサイトです。写真系、技術系のブログと作品リンクを掲載しています。"
 
-dateformat = "2006/01/02"
+[languages]
+  [languages.ja]
+    languageCode = "ja"
+    languageName = "Japanese"
+    displayName = "JA"
+    isoCode = "ja"
+    weight = 1
+    rtl = false
+
+    logo = "img/logo.png"
+    description = "空気感フォトグラファーのポートフォリオサイトです。写真系、技術系のブログと作品リンクを掲載しています。"
+    dateformat = "2006/01/02"
 
 [author]
   name = "花村貴史｜Takashi Hanamura"
