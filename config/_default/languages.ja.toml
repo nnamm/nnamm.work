@@ -1,29 +1,29 @@
+languageCode = "ja"
+languageName = "Japanese"
+# weight = 1
 title = "nnamm.work"
 
-[languages]
-  [languages.ja]
-    languageCode = "ja"
-    languageName = "Japanese"
-    displayName = "JA"
-    isoCode = "ja"
-    weight = 1
-    rtl = false
-
-    logo = "img/logo.png"
-    description = "空気感フォトグラファーのポートフォリオサイトです。写真系、技術系のブログと作品リンクを掲載しています。"
-    dateformat = "2006/01/02"
+[params]
+  displayName = "JA"
+  isoCode = "ja"
+  # rtl = false
+  dateformat = "2006/01/02"
+  logo = "img/logo.png"
+  # secondaryLogo = "XXXXX"
+  description = "空気感フォトグラファーのポートフォリオサイトです。写真系、技術系のブログと作品リンクを掲載しています。"
+  # copyright = "XXXXX"
 
 [author]
   name = "花村貴史｜Takashi Hanamura"
   image = "img/profile.jpg"
-  headline = "A place to publish my own thoughs and works"
+  headline = "A place where I share my thoughts and creations."
   bio = "Software enginner & Photographer"
   links = [
     { link = "https://nnamm.com" },
     { github = "https://github.com/nnamm" },
-    { tumblr = "https://thanamura.tumblr.com" },
-    { tumblr = "https://thanamura-portrait.tumblr.com" },
     { twitter = "https://twitter.com/nnammg" },
     { facebook = "https://www.facebook.com/t.hanamura.photography" },
+    # { tumblr = "https://thanamura.tumblr.com" },
+    # { tumblr = "https://thanamura-portrait.tumblr.com" },
   ]
 

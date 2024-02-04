@@ -6,27 +6,32 @@
 # https://blowfish.page/docs/configuration/#theme-parameters
 
 colorScheme = "congo"
-defaultAppearance = "light" # valid options: light or dark
+# defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
-
 enableSearch = true
 enableCodeCopy = true
-
 # mainSections = ["section1", "section2"]
+# showViews = 
+# showLikes = 
 robots = "all"
-
-disableImageOptimization = false
+# disableImageZoom = false
+# disableImageOptimization = false
+# disableTextInHeader = false
 defaultBackgroundImage = "img/background1.jpg" # used as default for background images 
+# defaultFeaturedImage = "XXXXX"
+# highlightCurrentMenuArea = "XXXXX"
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
 
 [header]
   layout = "fixed" # valid options: basic, fixed
 
 [footer]
-  showMenu = true
-  showCopyright = true
-  showThemeAttribution = true
+  # showMenu = true
+  # showCopyright = true
+  # showThemeAttribution = true
   showAppearanceSwitcher = true
-  showScrollToTop = true
+  # showScrollToTop = true
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
@@ -35,64 +40,69 @@ defaultBackgroundImage = "img/background1.jpg" # used as default for background 
   showRecentItems = 10
   showMoreLink = true
   showMoreLinkDest = "/blog"
-  cardView = false
-  cardViewScreenWidth = false
+  # cardView = false
+  # cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
   showDate = true
-  # showViews = true
-  # showLikes = true
+  # showViews = false
+  # showLikes = false
+  # showDateOnlyInArticle = false
   showDateUpdated = true
   showAuthor = true
   showHero = true
   heroStyle = "big" # valid options: basic, big, background
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
-  showDraftLabel = true
-  showEdit = false
+  # layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  # layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  # showBreadcrumbs = false
+  # showDraftLabel = true
+  # showEdit = false
   # editURL = "https://github.com/username/repo/"
-  editAppendPath = true
-  seriesOpened = false
+  # editAppendPath = true
+  # seriesOpened = false
   showHeadingAnchors = false
-  showPagination = true
-  invertPagination = false
+  # showPagination = true
+  # invertPagination = false
   showReadingTime = false 
   showTableOfContents = true
+  # showRelatedContent = false
+  # showRelatedContentLimit = 3
   showTaxonomies = true 
-  showAuthorsBadges = false 
+  # showAuthorsBadges = false 
   showWordCount = false 
-  showComments = false
+  # showComments = false
   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook"]
+  showZenMode = true
 
 [list]
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  # showBreadcrumbs = false
+  # layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false
-  showBreadcrumbs = false
   showTableOfContents = true
-  showSummary = false
+  # showSummary = false
   # showViews = true
   # showLikes = true
   showCards = true
   groupByYear = false
-  cardView = false
-  cardViewScreenWidth = false
-  constrainItemsWidth = false
+  # cardView = false
+  # cardViewScreenWidth = false
+  # constrainItemsWidth = false
+  # showTableOfContents = false
 
 [sitemap]
-  excludedKinds = ["taxonomy", "term"]
+  # excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
-  showTermCount = true
+  # showTermCount = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
   # showViews = false
   # showLikes = false
-  # showTableOfContents = true
+  # showTableOfContents = false
   # cardView = false 
 
 [term]

@@ -5,14 +5,11 @@
 theme = "blowfish"
 baseURL = "https://nnamm.work/"
 defaultContentLanguage = "ja"
-
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 30
-
 buildDrafts = false
 buildFuture = true
-
 googleAnalytics = "G-PGR5LXQDM6"
 
 [taxonomies]
