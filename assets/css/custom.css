@@ -23,6 +23,11 @@ html {
   line-height: 1.9rem;
 }
 
+.prose :where(p):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 .prose ol,
 .prose ul {
   margin-top: 1.75rem;
